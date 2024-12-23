@@ -1,0 +1,89 @@
+.div1 {
+  width: 180px;  /* Increased size */
+  height: 180px;  /* Increased size */
+  position: absolute;
+  top: 250px;  /* Adjusted to maintain center position */
+  left: 530px;  /* Adjusted to maintain center position */
+  border-radius: 100%;
+  animation: floatColor 2s infinite;  /* Increased frequency */
+  z-index: 1;
+  display: flex; /* Added flex to center button inside */
+  justify-content: center; /* Center button horizontally */
+  align-items: center; /* Center button vertically */
+}
+
+@keyframes floatColor {
+  0% {
+    background-color: #e46565d8;
+    box-shadow: 0 0 15px 5px rgba(228, 101, 101, 0.5);
+    transform: scale(1);
+  }
+  25% {
+    background-color: rgb(231, 21, 21);
+    box-shadow: 0 0 30px 10px rgba(231, 21, 21, 0.5);
+    transform: scale(1.05);
+  }
+  50% {
+    background-color: #e46565d8;
+    box-shadow: 0 0 20px 5px rgba(228, 101, 101, 0.5);
+    transform: scale(1);
+  }
+  75% {
+    background-color: rgb(231, 21, 21);
+    box-shadow: 0 0 25px 10px rgba(231, 21, 21, 0.5);
+    transform: scale(1.05);
+  }
+  100% {
+    background-color: #e46565d8;
+    box-shadow: 0 0 15px 5px rgba(228, 101, 101, 0.5);
+    transform: scale(1);
+  }
+}
+
+.div1_btn {
+  border: none;
+  height: 100px;  /* Adjusted to fit new size */
+  width: 100px;  /* Adjusted to fit new size */
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  background-color: rgb(243, 14, 14);
+  color: white;
+}
+
+.div1_btn:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.div1-h2 {
+  color: red;
+  position: absolute;
+  top: 510px;
+  left: 490px;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.stop_btn {
+  position: absolute;
+  top: 480px;
+  left: 610px;
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  color: red;
+  font-weight: 600;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stop_btn:focus {
+  outline: none; /* Remove focus outline */
+  border: 1px solid red;
+}

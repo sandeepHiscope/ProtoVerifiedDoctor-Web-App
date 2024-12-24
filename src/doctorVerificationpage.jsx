@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./doctorVerificationpage.css";
+// import DoctorVerification from "./doctorVerificationpage";
+import FindDoctorPage from "./findDoctorPage";
+import Home from "./Home";
+import Login from "./loginPage";
+import IndividualRegisterPage from "./individualRegisterPage";
+import SosPage from "./sosPage";
+import DoctorRegisterPage from "./doctorRegisterPage";
 
 const DoctorVerification = () => {
   const [fullName, setFullName] = useState("");

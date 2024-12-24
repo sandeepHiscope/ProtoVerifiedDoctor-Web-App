@@ -1,0 +1,273 @@
+/* Header PART */
+
+
+.login-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  /* max-width: 1340px; */
+  position: absolute;
+  top: 0%;
+  height: 250px;
+
+
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 10;
+  min-height: 341px;
+  width: 100%;
+  color: #000;
+  text-align: center;
+  padding: 12px 1px 67px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.background-image {
+  position: absolute;
+  inset: 0;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+    
+}
+
+.nav-container {
+  position: relative;
+  align-self: center;
+  display: flex;
+  width: 100%;
+  max-width: 1470px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.logo {
+  aspect-ratio: 1.09;
+  object-fit: contain;
+  object-position: center;
+  width: 120px;
+  border-radius: 185px;
+  position: absolute;
+  left: 30px;
+  top: 18px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  position: absolute;
+  top: 80px;
+  left: 20%;
+}
+
+.login-button {
+  background-color: transparent;
+  align-self: end;
+  font-weight: 600;
+  padding: 9px 21px;
+  border: 1px solid rgba(17, 9, 9, 0.3);
+  position: absolute;
+  top: 15px;
+right: 25px;
+border-radius: 20px;
+color: #2b2a2a;
+width: 140px;
+
+}
+.login-button:hover {
+  background-color: #3985dc;
+  color: white;
+  font-weight: 400;
+}
+
+.login-button:hover {
+  background-color: #3985dc;
+}
+
+.nav-links {
+  align-self: start;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  font-weight: 700;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  align-self: stretch;
+  margin: auto 0;
+  color: #000000;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #0c29e9;
+  text-decoration: underline;
+  transition-duration: 0.15s;
+}
+
+.sos-link {
+  color: red;
+  /* text-decoration: underline; */
+}
+.sos-link:hover{
+color: red;
+text-decoration: underline;
+}
+
+
+
+
+
+ /* sos part */
+.div1 {
+  width: 180px;  /* Increased size */
+  height: 180px;  /* Increased size */
+  position: absolute;
+  top: 250px;  /* Adjusted to maintain center position */
+  left: 530px;  /* Adjusted to maintain center position */
+  border-radius: 100%;
+  animation: floatColor 2s infinite;  /* Increased frequency */
+  z-index: 1;
+  display: flex; /* Added flex to center button inside */
+  justify-content: center; /* Center button horizontally */
+  align-items: center; /* Center button vertically */
+}
+
+@keyframes floatColor {
+  0% {
+    background-color: #e46565d8;
+    box-shadow: 0 0 15px 5px rgba(228, 101, 101, 0.5);
+    transform: scale(1);
+  }
+  25% {
+    background-color: rgb(231, 21, 21);
+    box-shadow: 0 0 30px 10px rgba(231, 21, 21, 0.5);
+    transform: scale(1.05);
+  }
+  50% {
+    background-color: #e46565d8;
+    box-shadow: 0 0 20px 5px rgba(228, 101, 101, 0.5);
+    transform: scale(1);
+  }
+  75% {
+    background-color: rgb(231, 21, 21);
+    box-shadow: 0 0 25px 10px rgba(231, 21, 21, 0.5);
+    transform: scale(1.05);
+  }
+  100% {
+    background-color: #e46565d8;
+    box-shadow: 0 0 15px 5px rgba(228, 101, 101, 0.5);
+    transform: scale(1);
+  }
+}
+
+.div1_btn {
+  border: none;
+  height: 100px;  /* Adjusted to fit new size */
+  width: 100px;  /* Adjusted to fit new size */
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  background-color: rgb(243, 14, 14);
+  color: white;
+}
+
+.div1_btn:focus {
+  outline: none; /* Remove focus outline */
+}
+
+.div1-h2 {
+  color: red;
+  position: absolute;
+  top: 510px;
+  left: 490px;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+.stop_btn {
+  position: absolute;
+  top: 480px;
+  left: 610px;
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  color: red;
+  font-weight: 600;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stop_btn:focus {
+  outline: none; /* Remove focus outline */
+  border: 1px solid red;
+}
+
+
+
+/* footer part */
+
+.footer{
+  /* border: 1px solid black; */
+  width: 1341px;
+  position: absolute;
+  top: 600px;
+  /* height: 100%; */
+
+}
+.background-image_footer{
+  width: 100%;
+  height: 100%;
+}
+
+.footer-logo{
+  /* aspect-ratio: 1.09; */
+  width: 120px;
+  border-radius: 185px;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  height: 120px;
+  z-index: 1;
+}
+.footer_ul1{
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 210px;
+  gap: 50px;
+  justify-content: space-around;
+}
+.footer_ul2{
+  list-style: none;
+}
+.footer_ul2 li h3{
+  font-weight: 700;
+}
+.footer_ul2 li a{
+color: black;
+font-weight: 400;
+}
+.footer_ul2 li a:hover{
+  color: blue;
+  text-decoration: underline;
+  font-weight: 400;
+  }

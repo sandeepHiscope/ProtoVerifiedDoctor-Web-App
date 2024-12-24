@@ -1,7 +1,15 @@
 import React from 'react';
-import './index.css'; // Import the CSS file
+import "./loginPage.css"; // Import the CSS file
 
-const App = () => {
+import DoctorVerification from "./doctorVerificationpage";
+import FindDoctorPage from "./findDoctorPage";
+import Home from "./Home";
+// import Login from "./loginPage";
+import IndividualRegisterPage from "./individualRegisterPage";
+import SosPage from "./sosPage";
+import DoctorRegisterPage from "./doctorRegisterPage";
+
+const Login = () => {
   return (
     <div className="login-container">
       <section className="header-section">
@@ -149,4 +157,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default Login;

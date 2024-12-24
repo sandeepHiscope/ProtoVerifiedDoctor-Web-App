@@ -1,7 +1,15 @@
 import React from 'react';
-import ''; // Import the CSS file
+import "./doctorRegisterPage.css";
 
-const App = () => {
+import DoctorVerification from './doctorVerificationpage';
+import FindDoctorPage from './findDoctorPage';
+import Home from './Home';
+import Login from './loginPage';
+import IndividualRegisterPage from './individualRegisterPage';
+import SosPage from './sosPage';
+
+
+const DoctorRegisterPage = () => {
   return (
     <div className="login-container">
       <section className="header-section">
@@ -18,12 +26,24 @@ const App = () => {
           />
           <div className="nav-menu">
             <div className="nav-links">
-              <a href="#" className="nav-link">Find a Doctor</a>
-              <a href="#" className="nav-link">Verify a Doctor</a>
-              <a href="#" className="nav-link sos-link">SOS</a>
-              <a href="#" className="nav-link">Home Delivery Medicines</a>
-              <a href="#" className="nav-link">Micro Insurance</a>
-              <a href="#" className="nav-link">Regular Insurance</a>
+              <a href="#" className="nav-link">
+                Find a Doctor
+              </a>
+              <a href="#" className="nav-link">
+                Verify a Doctor
+              </a>
+              <a href="#" className="nav-link sos-link">
+                SOS
+              </a>
+              <a href="#" className="nav-link">
+                Home Delivery Medicines
+              </a>
+              <a href="#" className="nav-link">
+                Micro Insurance
+              </a>
+              <a href="#" className="nav-link">
+                Regular Insurance
+              </a>
             </div>
           </div>
           <button className="login-button">Login/Signup</button>
@@ -46,20 +66,44 @@ const App = () => {
           </div>
           <div className="form-column">
             <form className="login-form">
-              <label htmlFor="userInput" className="input-label">Full Name</label>
-              <input type="text" id="userInput" className="form-input" placeholder="Full Name" />
+              <label htmlFor="userInput" className="input-label">
+                Full Name
+              </label>
+              <input
+                type="text"
+                id="userInput"
+                className="form-input"
+                placeholder="Full Name"
+              />
 
-              <label htmlFor="userInput" className="input-label">Mobile Number / Email ID</label>
-              <input type="text" id="userInput" className="form-input" placeholder="Mobile Number / Email ID" />
+              <label htmlFor="userInput" className="input-label">
+                Mobile Number / Email ID
+              </label>
+              <input
+                type="text"
+                id="userInput"
+                className="form-input"
+                placeholder="Mobile Number / Email ID"
+              />
 
-              <label htmlFor="passwordInput" className="input-label"> Create Password</label>
-              <input type="password" id="passwordInput" className="form-input" placeholder="Password" />
-              <div className='h1'>12000 + doctors are joined</div>
-             <a href="#" className="forgot-password">Not a doctor ?</a>
+              <label htmlFor="passwordInput" className="input-label">
+                {" "}
+                Create Password
+              </label>
+              <input
+                type="password"
+                id="passwordInput"
+                className="form-input"
+                placeholder="Password"
+              />
+              <div className="h1">12000 + doctors are joined</div>
+              <a href="#" className="forgot-password">
+                Not a doctor ?
+              </a>
 
-             
-
-              <button type="submit" className="submit-button">Login</button>
+              <button type="submit" className="submit-button">
+                Login
+              </button>
             </form>
           </div>
         </div>
@@ -83,11 +127,21 @@ const App = () => {
                 <div>
                   <div className="footer-brand">VDrapp</div>
                   <nav className="footer-links">
-                    <a href="#" style={{ textDecoration: 'none' }}>About Us</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Blog</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Careers</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Press</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Contact Us</a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      About Us
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Blog
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Careers
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Press
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Contact Us
+                    </a>
                   </nav>
                 </div>
               </div>
@@ -97,47 +151,99 @@ const App = () => {
                 <section className="footer-section">
                   <h2 className="footer-heading">For Patient</h2>
                   <nav className="footer-nav-links">
-                    <a href="#" style={{ textDecoration: 'none' }}>Search for Doctors</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Search for Clinics</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Search for Hospitals</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>VDr plus</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Read health articles</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Read about medicines</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>VDr Drive</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Health app</a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Search for Doctors
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Search for Clinics
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Search for Hospitals
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      VDr plus
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Read health articles
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Read about medicines
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      VDr Drive
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Health app
+                    </a>
                   </nav>
                 </section>
                 <section className="footer-section">
                   <h2 className="footer-heading">For Doctors</h2>
                   <nav className="footer-nav-links">
-                    <a href="#" style={{ textDecoration: 'none' }}>VDr Profile</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>For Clinics</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Ray by VDr</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>VDr Pro</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Ray Tab</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>VDr Reach</a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      VDr Profile
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      For Clinics
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Ray by VDr
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      VDr Pro
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Ray Tab
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      VDr Reach
+                    </a>
                   </nav>
                 </section>
                 <section className="footer-section">
                   <h2 className="footer-heading">For Hospitals</h2>
                   <nav className="footer-nav-links">
-                    <a href="#" style={{ textDecoration: 'none' }}>Insta by VDr</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Qikwell by VDr</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>VDr Profile</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>VDr Reach</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>VDr Drive</a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Insta by VDr
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Qikwell by VDr
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      VDr Profile
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      VDr Reach
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      VDr Drive
+                    </a>
                   </nav>
                 </section>
                 <section className="footer-section">
                   <h2 className="footer-heading">More</h2>
                   <nav className="footer-nav-links">
-                    <a href="#" style={{ textDecoration: 'none' }}>Help</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Developers</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Privacy Policy</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Terms & Conditions</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>PCS T&C</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>Healthcare Directory</a>
-                    <a href="#" style={{ textDecoration: 'none' }}>VDr Health Wiki</a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Help
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Developers
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Privacy Policy
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Terms & Conditions
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      PCS T&C
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      Healthcare Directory
+                    </a>
+                    <a href="#" style={{ textDecoration: "none" }}>
+                      VDr Health Wiki
+                    </a>
                   </nav>
                 </section>
               </div>
@@ -147,6 +253,6 @@ const App = () => {
       </footer>
     </div>
   );
-}
+};
 
-export default App;
+export default DoctorRegisterPage;

@@ -31,22 +31,31 @@ body {
   max-width: 1800px;
   margin: 0 auto;
   position: relative ;
+  position: relative;
+  /* left: 1rem; */
+}
+.navbar ul{
+  position: relative;
+  left:-7rem;
 }
 
 /* Logo Section (Left) */
 .logo{
   /* background: #ef4545; */
-  width: 10rem;
-  height: 10rem;
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+
 
 }
-.logo img {
-  width: 100px;
-  height: 100px;
+.logoContain img {
+  width: 6rem;
+  height: 6rem;
   height: auto;
   position:relative;
-  top: 0px;
-  left: -100px;
+  top: .5rem;
+  left: -6rem;
+  /* background: #846a6a; */
 }
 
 
@@ -94,6 +103,10 @@ body {
   color: #0c0101;
   border: 1px solid #5a5b5c;
   transition: opacity 0.3s ease;
+
+  position: relative;
+  left: -1.5rem;
+  top: 1.8rem;
 }
 
 .login-btn:hover {
@@ -438,7 +451,7 @@ option {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   height: 40%;
   position: absolute;
-  top: 90%;
+  top: 97%;
 }
 
 /* Option Buttons outside the frame */
@@ -511,6 +524,10 @@ option {
 }
 .body4 { font-family: Arial, sans-serif; padding: 0; margin: 0;position: absolute;top: 130%;left: 20%; }
         .container4 { display: flex; justify-content: center; padding: 100px; }
+        .container4 img{
+          width: 20rem;
+          height: 20rem;
+        }
         .preview { display: flex; flex-direction: column; align-items: center}
         .preview img { width: 300px; max-width: 400px; margin-bottom: 20px; }
         .info { margin-left: 20px;margin-top: 35px; max-width: 300px; }

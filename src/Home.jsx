@@ -125,62 +125,62 @@ function Homepage() {
   const slidesData = [
     {
       title: "Cardiologist",
-      img: "C:Users\beeseOneDriveDesktop\reactVDRsrcassetsCardiologist.jpeg",
+      img: "./src/assets/Images/Cardiologist.png",
       description: "Expert Care for a Healthier Heart",
     },
     {
       title: "Gynaecologist",
-      img: "",
+      img: "./src/assets/Images/gynaecologist.png",
       description: "Women's health, expert care",
     },
     {
       title: "Dentist",
-      img: "https://via.placeholder.com/800x400?text=Image+3",
+      img: "./src/assets/Images/Dentist.png",
       description: "Strong Teeth, Bright Smiles, Happy Life",
     },
     {
       title: "Gastroenterologist",
-      img: "https://via.placeholder.com/800x400?text=Image+4",
+      img: "./src/assets/Images/Gastrologist.png",
       description: "Digestive health, better comfort",
     },
     {
       title: "Orthopedist",
-      img: "https://via.placeholder.com/800x400?text=Image+5",
+      img: "./src/assets/Images/Orthopedist.png",
       description: "Stronger bones, better mobility",
     },
     {
       title: "Diagnostics",
-      img: "https://via.placeholder.com/800x400?text=Image+6",
+      img: "./src/assets/Images/Diagnostics.png ",
       description: "Precise tests, accurate results.",
     },
     {
       title: "Dermatologist",
-      img: "https://via.placeholder.com/800x400?text=Image+7",
+      img: "./src/assets/Images/Dermatologist.png ",
       description: "Healthy skin, glowing confidence",
     },
     {
       title: "General Physician",
-      img: "https://via.placeholder.com/800x400?text=Image+8",
+      img: "./src/assets/Images/general physicians.png ",
       description: "Comprehensive care, healthy living",
     },
     {
       title: "Neurologist",
-      img: "https://via.placeholder.com/800x400?text=Image+9",
+      img: "./src/assets/Images/Neurologist.png ",
       description: "Your brain, our priority",
     },
     {
       title: "Physiotherapist",
-      img: "https://via.placeholder.com/800x400?text=Image+10",
+      img: "./src/assets/Images/physiotherapist.png",
       description: "Restoring movement, improving life",
     },
     {
       title: "Pediatrician",
-      img: "https://via.placeholder.com/800x400?text=Image+11",
+      img: "./src/assets/Images/Pediatrician.png ",
       description: "Caring for children's wellness",
     },
     {
       title: "Pulmonologist",
-      img: "https://via.placeholder.com/800x400?text=Image+12",
+      img: "./src/assets/Images/pulmonologist.png ",
       description: "Breathing easy, health restored",
     },
   ];
@@ -437,7 +437,7 @@ function Homepage() {
           <div className="preview">
             {/* If the image is in the public folder, use relative path */}
             <img
-              src="logo.png"
+              src="./src/assets/Images/VDr-logo.png"
               height="400px"
               width="900px"
               alt="App Preview"

@@ -254,7 +254,7 @@ function Homepage() {
               {/* Logo Section (Left Side) */}
               <div className="logoContain">
                 <a href="/">
-                  <img src="logo.png" alt="Logo" />
+                  <img src="./src/assets/Images/VDr-logo.png" alt="Logo" />
                 </a>
               </div>
 

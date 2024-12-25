@@ -24,7 +24,7 @@ const FindDoctorPage = () => {
             />
             <nav className="nav-container">
               <img
-                src="./src/assets/Images/VDr-logo.png"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/5579435fcea5352f7b3da9021f52f1cd4a3e8059c744d02a45317074cdbc09b3?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
                 alt="VDrapp Logo"
                 className="logo"
               />

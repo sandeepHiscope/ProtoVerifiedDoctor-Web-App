@@ -20,7 +20,9 @@ const Login = () => {
         />
         <nav className="nav-container">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/5579435fcea5352f7b3da9021f52f1cd4a3e8059c744d02a45317074cdbc09b3?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
+             
+              src="../public/VDr-logo.png"
+ 
             alt="VDrapp Logo"
             className="logo"
           />
@@ -38,8 +40,8 @@ const Login = () => {
         </nav>
         <div className="separator"></div>
         <div className="auth-tabs">
-          <div className="change">Login</div>
-         <a href='http://localhost:5175/'><div className="change">Register</div></a>
+           {/* <div className="change">Login</div> */}
+         {/* <a href='http://localhost:5175/'><div className="change">Register</div></a> */}
         </div>
       </section>
 

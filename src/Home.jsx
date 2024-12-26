@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css"
+import HeaderFooter from "./headerFooter";
 
 import DoctorVerification from "./doctorVerificationpage";
 import FindDoctorPage from "./findDoctorPage";
@@ -246,40 +247,10 @@ function Homepage() {
 
   return (
     <>
+    <HeaderFooter/>
       {/* HEADER PART */}
       <>
-        <div className="App">
-          <header className="header">
-            <div className="header-container">
-              <div className="logoContain">
-                <a href="/">
-                  <img src="../public/VDr-logo.png" alt="Logo" />
-                </a>
-              </div>
-
-              {/* Navigation Bar (Center) */}
-              <nav className="navbar">
-                <ul>
-                  <li>
-                    <a href="/findDoctorPage">Find a Doctor</a>
-                  </li>
-                  <li>
-                    <a href="/doctorVerificationpage">Verify a Doctor</a>
-                  </li>
-                  <li>
-                    <a href="/sosPage">SOS</a>
-                  </li>
-                  <li>
-                    <a href="#">Home Delivery Medicines</a>
-                  </li>
-                  <li>
-                    <a href="#">Micro Insurance</a>
-                  </li>
-                  <li>
-                    <a href="#">Regular Insurance</a>
-                  </li>
-                </ul>
-              </nav>
+        
 
               {/* Login/Signup Button (Right Side) */}
               <div className="auth-buttons">
@@ -287,9 +258,7 @@ function Homepage() {
                   Login/Sign Up
                 </button>
               </div>
-            </div>
-          </header>
-        </div>
+        
       </>
 
       {/* padding part */}

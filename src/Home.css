@@ -4,21 +4,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  width: 100vw;
+  overflow-x: hidden;
+}
 
 /* Basic styles for body */
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 2;
   background-color: #ffffff;
+  width: 100vw;
 }
 
 /* Header Styles */
 .header {
+  /* background: #000; */
   color: #000000;
-  padding: 12px 122px;
-  position: absolute;
+  padding: 12px;
+  position: relative;
+  width: 100vw;
+  /* width: 1490px; */
+
   top: -5px;
-  left: 0px;
+  left: -0rem;
   z-index: 1000;
   box-shadow: 0 4px 9px rgba(251, 249, 249, 0.1); /* Subtle shadow for header */
 }
@@ -28,15 +37,28 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1800px;
+  width: 1490px;
+  /* width: 100vw; */
+  height: 7rem;
   margin: 0 auto;
   position: relative ;
-  position: relative;
-  /* left: 1rem; */
+  top: -12px;
+  left: -1rem;
+  background: #007cb172;
+}
+.logoContain img {
+  width: 6rem;
+  height: auto;
+  height: auto;
+  position:relative;
+  top: .5rem;
+  left: 2rem;
+  /* left: -6rem; */
+  /* background: #846a6a; */
 }
 .navbar ul{
   position: relative;
-  left:-7rem;
+  left:-15rem;
 }
 
 /* Logo Section (Left) */
@@ -45,20 +67,8 @@ body {
   width: 5rem;
   height: 5rem;
   position: relative;
-
-
+  /* background: #000; */
 }
-.logoContain img {
-  width: 6rem;
-  height: 6rem;
-  height: auto;
-  position:relative;
-  top: .5rem;
-  left: -6rem;
-  /* background: #846a6a; */
-}
-
-
 /* Navigation Bar Styles */
 .navbar ul {
   list-style-type: none;
@@ -105,8 +115,8 @@ body {
   transition: opacity 0.3s ease;
 
   position: relative;
-  left: -1.5rem;
-  top: 1.8rem;
+  right: 8.5rem;
+  top: 2.2rem;
 }
 
 .login-btn:hover {
@@ -270,7 +280,9 @@ option {
   display: flex; /* Use flexbox to align items side by side */
   gap: 10px; /* Add space between the input fields */
   width: 100%; /* Ensure container takes the full width */
+/* background: #000; */
 }
+
 .body2 {
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -347,8 +359,9 @@ option {
 .slider {
   position: absolute;
   top: 40%;
+  left: 2rem;
   width: 95%;
-  max-width: 1400px; /* Increased width for more images */
+  max-width: 100%; /* Increased width for more images */
   height: 380px;
   overflow: hidden;
   border: 2px solid #ffffff;
@@ -551,22 +564,41 @@ option {
   overflow: hidden;
   
 }
-.frame-6 {
-  background: rgba(70, 232, 247, 0.54);
-  width: 1400px;
-  height: 250px;
-  position: absolute;
-  top: 200%;
-  left: 50%;
-  translate: -50%;
-  bottom: 0px;
-  overflow: hidden;
-}
+
 .footer {
-  position: absolute;
-  inset: 0;
+  /* margin: 10rem; */
+  position: relative;
+  top: 10rem;
+  /* left: -10rem; */
+  width: 100vw;
+  background-color: #33c1ec;
+  text-align: center;
+  padding: 1rem;
+
+  height: 8rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+  z-index: 10;
+
 }
-.VDr-App{
+.footer img{
+  position: relative;
+  bottom: 0;
+  width: 5rem;
+}
+.footer h5{
+  position: relative;
+  bottom: 0;
+  width: 8rem;
+  /* top: 1rem; */
+  margin: 2rem;
+}
+
+
+/* .VDr-App{
   width: 5.96%;
   height: 22px;
   position: absolute;
@@ -1397,7 +1429,7 @@ option {
   left: 10px;
   height: 150px;
   width: 150px;
-}
+} */
 
 .hea{background-image: url('');
   background-size: cover; /* Ensures the image covers the entire page */

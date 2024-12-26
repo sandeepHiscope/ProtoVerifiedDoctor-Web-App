@@ -453,7 +453,7 @@ function Homepage() {
               <div className="store-button">
                 {/* Make sure to place the image in the public folder or import them directly */}
                 <img
-                  src="logo.jpg"
+                  src="./assets/icons/apps/googleplay.jpeg"
                   alt="Google Play"
                   style={{ width: "30px", borderRadius: "20px" }}
                 />
@@ -461,7 +461,7 @@ function Homepage() {
               </div>
               <div className="store-button">
                 <img
-                  src="logo.png"
+                  src="./assets/icons/apps/appstore.jpeg" 
                   alt="Apple App Store"
                   style={{ width: "30px", borderRadius: "20px" }}
                 />

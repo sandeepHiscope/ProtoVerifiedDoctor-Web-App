@@ -1,6 +1,24 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css"
+
 import HeaderFooter from "./headerFooter";
+// imgs
+import VDrLogo from "./assets/Images/VDr-logo.png";
+import GooglePlayLogo from "./assets/icons/apps/googleplay.jpeg";
+import AppStoreLogo from "./assets/icons/apps/appstore.jpeg";
+
+import CardiologistImg from "./assets/Images/Cardiologist.png";
+  import GynaecologistImg from "./assets/Images/gynaecologist.png";
+  import DentistImg from "./assets/Images/Dentist.png";
+  import GastroenterologistImg from "./assets/Images/Gastrologist.png";
+  import OrthopedistImg from "./assets/Images/Orthopedist.png";
+  import DiagnosticsImg from "./assets/Images/Diagnostics.png";
+  import DermatologistImg from "./assets/Images/Dermatologist.png";
+  import GeneralPhysicianImg from "./assets/Images/general physicians.png";
+  import NeurologistImg from "./assets/Images/Neurologist.png";
+  import PhysiotherapistImg from "./assets/Images/physiotherapist.png";
+  import PediatricianImg from "./assets/Images/Pediatrician.png";
+  import PulmonologistImg from "./assets/Images/pulmonologist.png";
 
 import DoctorVerification from "./doctorVerificationpage";
 import FindDoctorPage from "./findDoctorPage";
@@ -126,62 +144,62 @@ function Homepage() {
   const slidesData = [
     {
       title: "Cardiologist",
-      img: "./src/assets/Images/Cardiologist.png",
+      img: CardiologistImg,
       description: "Expert Care for a Healthier Heart",
     },
     {
       title: "Gynaecologist",
-      img: "./src/assets/Images/gynaecologist.png",
+      img: GynaecologistImg,
       description: "Women's health, expert care",
     },
     {
       title: "Dentist",
-      img: "./src/assets/Images/Dentist.png",
+      img: DentistImg,
       description: "Strong Teeth, Bright Smiles, Happy Life",
     },
     {
       title: "Gastroenterologist",
-      img: "./src/assets/Images/Gastrologist.png",
+      img: GastroenterologistImg,
       description: "Digestive health, better comfort",
     },
     {
       title: "Orthopedist",
-      img: "./src/assets/Images/Orthopedist.png",
+      img: OrthopedistImg,
       description: "Stronger bones, better mobility",
     },
     {
       title: "Diagnostics",
-      img: "./src/assets/Images/Diagnostics.png ",
+      img: DiagnosticsImg,
       description: "Precise tests, accurate results.",
     },
     {
       title: "Dermatologist",
-      img: "./src/assets/Images/Dermatologist.png ",
+      img: DermatologistImg,
       description: "Healthy skin, glowing confidence",
     },
     {
       title: "General Physician",
-      img: "./src/assets/Images/general physicians.png ",
+      img: GeneralPhysicianImg,
       description: "Comprehensive care, healthy living",
     },
     {
       title: "Neurologist",
-      img: "./src/assets/Images/Neurologist.png ",
+      img: NeurologistImg,
       description: "Your brain, our priority",
     },
     {
       title: "Physiotherapist",
-      img: "./src/assets/Images/physiotherapist.png",
+      img: PhysiotherapistImg,
       description: "Restoring movement, improving life",
     },
     {
       title: "Pediatrician",
-      img: "./src/assets/Images/Pediatrician.png ",
+      img: PediatricianImg,
       description: "Caring for children's wellness",
     },
     {
       title: "Pulmonologist",
-      img: "./src/assets/Images/pulmonologist.png ",
+      img: PulmonologistImg,
       description: "Breathing easy, health restored",
     },
   ];
@@ -250,7 +268,6 @@ function Homepage() {
     <HeaderFooter/>
       {/* HEADER PART */}
       <>
-        
 
               {/* Login/Signup Button (Right Side) */}
               <div className="auth-buttons">
@@ -406,48 +423,45 @@ function Homepage() {
           </div>
         </div>
         {/* lastpart */}
-      </>
-      <div className="body4">
-        <div className="container4">
-          <div className="preview">
-            {/* If the image is in the public folder, use relative path */}
-            <img
-              src="./src/assets/Images/VDr-logo.png"
-              height="400px"
-              width="900px"
-              alt="App Preview"
-            />
-          </div>
-          <div className="info">
-            <h2 className="title">Download VDr app</h2>
-            <p className="description">
-              Consult with India's top doctors via video on VDr app. Get 24/7
-              access to healthcare.
-            </p>
-            <div className="store-buttons">
-              <div className="store-button">
-                {/* Make sure to place the image in the public folder or import them directly */}
-                <img
-                  src="./assets/icons/apps/googleplay.jpeg"
-                  alt="Google Play"
-                  style={{ width: "30px", borderRadius: "20px" }}
-                />
-                <span>Play Store</span>
-              </div>
-              <div className="store-button">
-                <img
-                  src="./assets/icons/apps/appstore.jpeg" 
-                  alt="Apple App Store"
-                  style={{ width: "30px", borderRadius: "20px" }}
-                />
-                <span>App Store</span>
+        <div className="body4">
+          <div className="container4">
+            <div className="preview">
+              <img
+                src={VDrLogo}
+                height="400px"
+                width="900px"
+                alt="App Preview"
+              />
+            </div>
+            <div className="info">
+              <h2 className="title">Download VDr app</h2>
+              <p className="description">
+                Consult with India's top doctors via video on VDr app. Get 24/7
+                access to healthcare.
+              </p>
+              <div className="store-buttons">
+                <div className="store-button">
+                  <img
+                    src={GooglePlayLogo}
+                    alt="Google Play"
+                    style={{ width: "30px", borderRadius: "20px" }}
+                  />
+                  <span>Play Store</span>
+                </div>
+                <div className="store-button">
+                  <img
+                    src={AppStoreLogo}
+                    alt="Apple App Store"
+                    style={{ width: "30px", borderRadius: "20px" }}
+                  />
+                  <span>App Store</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      {/* Footer */}
-      
+        {/* Footer */}
+      </>
     </>
   );
 }

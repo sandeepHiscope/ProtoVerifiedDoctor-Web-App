@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css"
+import VDrLogo from "./assets/Images/VDr-logo.png";
 
 import DoctorVerification from "./doctorVerificationpage";
 import FindDoctorPage from "./findDoctorPage";
@@ -253,7 +254,7 @@ function Homepage() {
             <div className="header-container">
               <div className="logoContain">
                 <a href="/">
-                  <img src="../public/VDr-logo.png" alt="Logo" />
+                  <img src={VDrLogo} alt="Logo" />
                 </a>
               </div>
 

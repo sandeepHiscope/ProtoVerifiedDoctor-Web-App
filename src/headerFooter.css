@@ -57,6 +57,7 @@
   margin: 0 auto; 
   position: relative;
   left: -37rem;
+  cursor: pointer;
   }
   
   .nav-menu {

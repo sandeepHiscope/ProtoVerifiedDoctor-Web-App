@@ -13,6 +13,15 @@ body{
 .main-container{
   width: 100vh;
 }
+.main-img img{
+  background: #cb2b2b;
+  position: relative;
+  top: 20rem;
+  left: 0rem;
+  height: 40rem;
+  width: 90%;
+  background-size: cover;
+}
 .verification-cont{
   /* background: #3a3a3a5f; */
   width: 40rem;
@@ -23,7 +32,7 @@ body{
   align-items: top;
   justify-content:flex-start;
   left: 45rem;
-  top: 8rem;
+  top:-35rem;
   z-index: 1;
 }
 .verify-a-doctor,
@@ -62,339 +71,7 @@ body{
   top: 311px;
   object-fit: cover;
 }
-.header {
-  position: absolute;
-  inset: 0;
-}
-.image-2 {
-  border-radius: 184.5px;
-  width: 120px;
-  height: 110.42px;
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  object-fit: cover;
-}
-.frame-3 {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  align-items: center;
-  justify-content: flex-start;
-  width: 985px;
-  position: absolute;
-  left: calc(50% - 506px);
-  top: 68px;
-}
-.find-a-doctor {
-  flex-shrink: 0;
-  width: 107px;
-  height: 22px;
-  position: relative;
-}
-.find-a-doctor2 {
-  color: #000000;
-  text-align: center;
-  font-family: "OpenSans-Bold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.verify-a-doctor2 {
-  flex-shrink: 0;
-  width: 120px;
-  height: 22px;
-  position: relative;
-}
-.verify-a-doctor3 {
-  color: #000000;
-  text-align: center;
-  font-family: "OpenSans-Bold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.sos {
-  flex-shrink: 0;
-  width: 31px;
-  height: 22px;
-  position: relative;
-}
-.sos2 {
-  color: #810002;
-  text-align: center;
-  font-family: "OpenSans-Bold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.home-delivery-medicines {
-  flex-shrink: 0;
-  width: 203px;
-  height: 22px;
-  position: relative;
-}
-.home-delivery-medicines2 {
-  color: #000000;
-  text-align: center;
-  font-family: "OpenSans-Bold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.micro-insurance {
-  flex-shrink: 0;
-  width: 129px;
-  height: 22px;
-  position: relative;
-}
-.micro-insurance2 {
-  color: #000000;
-  text-align: center;
-  font-family: "OpenSans-Bold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.regular-insurance {
-  flex-shrink: 0;
-  width: 145px;
-  height: 22px;
-  position: relative;
-}
-.regular-insurance2 {
-  color: #000000;
-  text-align: center;
-  font-family: "OpenSans-Bold", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  width: 100%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.login-signup {
-  width: 10rem;
-  height: 40px;
-  position: absolute;
-  right: 50px;
-  top: 60px;
-}
-.rectangle-1 {
-  background: rgba(255, 255, 255, 0.792);
-  border-style: solid;
-  border-color: rgba(96, 96, 96, 0.516);
-  border-width: 1px;
-  border-radius: 10px;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  bottom: 0%;
-  top: 0%;
-}
-.login-signup2 {
-  color: #000000;
-  text-align: center;
-  font-family: "OpenSans-SemiBold", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  position: absolute;
-  right: 14%;
-  left: 14%;
-  width: 72%;
-  bottom: 27.5%;
-  top: 17.5%;
-  height: 55%;
-}
-.rectangle-16 {
-  background: #d9d9d9;
-  width: 100%;
-  height: 20px;
-  position: absolute;
-  right: 0%;
-  left: 0%;
-  top: 121px;
-}
 
-.footer-cont {
-  background: rgb(70, 70, 70);
-  width: 1500px;
-  height: 215px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -65rem;
-  overflow: hidden;
-  
-}
-
-.about-us {
-  width: 5.01%;
-  height: 22px;
-  position: absolute;
-  right: 82.78%;
-  left: 12.21%;
-  bottom: 159px;
-}
-.about-us2 {
-  color: #000000;
-  text-align: left;
-  font-family: "OpenSans-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  right: 8.27%;
-  left: 0%;
-  width: 91.73%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.blog {
-  width: 2.4%;
-  height: 22px;
-  position: absolute;
-  right: 85.32%;
-  left: 12.28%;
-  bottom: 135px;
-}
-.blog2 {
-  color: #000000;
-  text-align: left;
-  font-family: "OpenSans-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  right: 8.27%;
-  left: 0%;
-  width: 91.73%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.careers {
-  width: 4.22%;
-  height: 22px;
-  position: absolute;
-  right: 83.58%;
-  left: 12.21%;
-  bottom: 111px;
-}
-.careers2 {
-  color: #000000;
-  text-align: left;
-  font-family: "OpenSans-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  right: 8.27%;
-  left: 0%;
-  width: 91.73%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.press {
-  width: 2.98%;
-  height: 22px;
-  position: absolute;
-  right: 84.81%;
-  left: 12.21%;
-  bottom: 88px;
-}
-.press2 {
-  color: #000000;
-  text-align: left;
-  font-family: "OpenSans-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  right: 8.27%;
-  left: 0%;
-  width: 91.73%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.contact-us {
-  width: 5.89%;
-  height: 22px;
-  position: absolute;
-  right: 81.9%;
-  left: 12.21%;
-  bottom: 65px;
-}
-.contact-us2 {
-  color: #000000;
-  text-align: left;
-  font-family: "OpenSans-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  right: 8.27%;
-  left: 0%;
-  width: 91.73%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
-.for-patient {
-  width: 5.96%;
-  height: 22px;
-  position: absolute;
-  right: 65.92%;
-  left: 28.12%;
-  bottom: 190px;
-}
-.for-patient2 {
-  color: #000000;
-  text-align: left;
-  font-family: "OpenSans-SemiBold", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  position: absolute;
-  right: 4.91%;
-  left: 0%;
-  width: 95.09%;
-  bottom: 0%;
-  top: 0%;
-  height: 100%;
-}
 .search-for-doctors {
   width: 10.32%;
   height: 22px;
@@ -1062,14 +739,17 @@ body{
   font-size: 20px;
   font-weight: 400;
   position: absolute;
-  right: 538px;
+  right: 318px;
   top: 243px;
+  width: 20rem;
 }
 .full-name-span {
   color: #000000;
   font-family: "Inter-Regular", sans-serif;
   font-size: 20px;
   font-weight: 400;
+  width: 20rem;
+  margin: 10px;
 }
 .full-name-span2 {
   color: #ff070b;
@@ -1473,12 +1153,6 @@ body{
   margin: 1rem;
 
 height: 5rem;}
-.main-img{
-  background: #000;
-  width: 40rem;
-  height: 40rem;
-  margin: 2rem;
-
-  position: absolute;
-  top: 20rem;
+.full-name-span{
+  width: 20rem;
 }

@@ -478,12 +478,7 @@ function Homepage() {
         </div>
       </div>
       {/* Footer */}
-      <div className="footer">
-        <a href="">
-          <img src="../public/VDr-logo.png" alt="logo" />
-        </a>
-        <h5>Hiscopetech 2024</h5>
-      </div>
+      
     </>
   );
 }

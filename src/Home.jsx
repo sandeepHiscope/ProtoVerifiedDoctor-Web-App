@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css"
+
+import HeaderFooter from "./headerFooter";
 // imgs
 import VDrLogo from "./assets/Images/VDr-logo.png";
 import GooglePlayLogo from "./assets/icons/apps/googleplay.jpeg";
@@ -263,40 +265,9 @@ function Homepage() {
 
   return (
     <>
+    <HeaderFooter/>
       {/* HEADER PART */}
       <>
-        <div className="App">
-          <header className="header">
-            <div className="header-container">
-              <div className="logoContain">
-                <a href="/">
-                  <img src={VDrLogo} alt="Logo" />
-                </a>
-              </div>
-
-              {/* Navigation Bar (Center) */}
-              <nav className="navbar">
-                <ul>
-                  <li>
-                    <a href="/findDoctorPage">Find a Doctor</a>
-                  </li>
-                  <li>
-                    <a href="/doctorVerificationpage">Verify a Doctor</a>
-                  </li>
-                  <li>
-                    <a href="/sosPage">SOS</a>
-                  </li>
-                  <li>
-                    <a href="#">Home Delivery Medicines</a>
-                  </li>
-                  <li>
-                    <a href="#">Micro Insurance</a>
-                  </li>
-                  <li>
-                    <a href="#">Regular Insurance</a>
-                  </li>
-                </ul>
-              </nav>
 
               {/* Login/Signup Button (Right Side) */}
               <div className="auth-buttons">
@@ -304,9 +275,7 @@ function Homepage() {
                   Login/Sign Up
                 </button>
               </div>
-            </div>
-          </header>
-        </div>
+        
       </>
 
       {/* padding part */}

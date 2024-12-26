@@ -1,6 +1,6 @@
 import React from "react";
 import "./findDoctorPage.css";
-import Header from "./headerFooter";
+import HeaderFooter from "./headerFooter";
 
 import DoctorVerification from "./doctorVerificationpage";
 // import FindDoctorPage from "./findDoctorPage";
@@ -13,34 +13,7 @@ import DoctorRegisterPage from "./doctorRegisterPage";
 const FindDoctorPage = () => {
   return (
     <>
-      {/* HEADER PART */}
-      <div className="login-container">
-        <section className="header-section">
-          <nav className="nav-container">
-            <img
-              src="../public/VDr-logo.png"
-              alt="VDrapp Logo"
-              className="logo header-logo"
-            />
-            <div className="nav-menu">
-              <div className="nav-links">
-                <a href="#" className="nav-link">
-                  Find a Doctor
-                </a>
-                <a href="#" className="nav-link">
-                  Verify a Doctor
-                </a>
-                <a href="#" className="nav-link sos-link">
-                  SOS
-                </a>
-                <a href="#" className="nav-link">
-                  Home Delivery Medicines
-                </a>
-              </div>
-            </div>
-          </nav>
-        </section>
-      </div>
+<HeaderFooter/>
       {/* 
     // BODY */}
       <div className="search-section">
@@ -83,16 +56,7 @@ const FindDoctorPage = () => {
           </div>
         </div>
       </div>
-
-      {/* FOOTER PART */}
-      <footer className="footer">
-        <img
-          src="../public/VDr-logo.png"
-          alt="VDrapp Logo"
-          className="logo footer-logo"
-        />
-      </footer>
-    </>
+</>
   );
 };
 

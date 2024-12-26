@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./sosPage.css";
-import Header from "./headerFooter";
+import HeaderFooter from "./headerFooter";
 
 import DoctorVerification from "./doctorVerificationpage";
 import FindDoctorPage from "./findDoctorPage";
@@ -52,10 +52,9 @@ const SosPage = () => {
 
   return (
     <>
-    <Header/>
+    <HeaderFooter/>
 
       {/* SOS part */}
-      {/* <Head /> */}
       <div className="div1">
         <button className="div1_btn" onDoubleClick={handleDoubleClick}>
           {count}
@@ -69,8 +68,6 @@ const SosPage = () => {
           </button>
         </>
       )}
-
-      {/* FOOTERPART */}
 
       
     </>

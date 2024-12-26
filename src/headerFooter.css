@@ -151,14 +151,16 @@
   
   
   
-
   .footer{
     /*  */
     position: absolute;
     height: 250px;
     width: 100%;
     overflow: hidden;
-  top: 500px;
+  /* top: 600px; */
+  bottom: 0%;
+  z-index: -1;
+
   }
   .background-image_footer{
     height: 150px;

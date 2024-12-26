@@ -453,47 +453,46 @@ function Homepage() {
             </div>
           </div>
         </div>
-        /* lastpart */}
-          </>
-          <div className="body4">
-            <div className="container4">
-              <div className="preview">
-            <img
-              src={VDrLogo}
-              height="400px"
-              width="900px"
-              alt="App Preview"
-            />
-              </div>
-              <div className="info"></div>
-            <h2 className="title">Download VDr app</h2>
-            <p className="description"></p>
-              Consult with India's top doctors via video on VDr app. Get 24/7
-              access to healthcare.
-            </p>
-            <div className="store-buttons">
-              <div className="store-button">
-                <img
-              src={GooglePlayLogo}
-              alt="Google Play"
-              style={{ width: "30px", borderRadius: "20px" }}
-                />
-                <span>Play Store</span>
-              </div>
-              <div className="store-button">
-                <img
-              src={AppStoreLogo}
-              alt="Apple App Store"
-              style={{ width: "30px", borderRadius: "20px" }}
-                />
-                <span>App Store</span>
-              </div>
+        {/* lastpart */}
+        <div className="body4">
+          <div className="container4">
+            <div className="preview">
+              <img
+                src={VDrLogo}
+                height="400px"
+                width="900px"
+                alt="App Preview"
+              />
             </div>
+            <div className="info">
+              <h2 className="title">Download VDr app</h2>
+              <p className="description">
+                Consult with India's top doctors via video on VDr app. Get 24/7
+                access to healthcare.
+              </p>
+              <div className="store-buttons">
+                <div className="store-button">
+                  <img
+                    src={GooglePlayLogo}
+                    alt="Google Play"
+                    style={{ width: "30px", borderRadius: "20px" }}
+                  />
+                  <span>Play Store</span>
+                </div>
+                <div className="store-button">
+                  <img
+                    src={AppStoreLogo}
+                    alt="Apple App Store"
+                    style={{ width: "30px", borderRadius: "20px" }}
+                  />
+                  <span>App Store</span>
+                </div>
               </div>
             </div>
           </div>
-          {/* Footer */}
-      
+        </div>
+        {/* Footer */}
+      </>
     </>
   );
 }

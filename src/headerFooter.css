@@ -50,15 +50,13 @@
 
   }
   
-  .logo {
-    /* aspect-ratio: 1.09;
-    object-fit: contain;
-    object-position: center; */
-    width: 100px;
-    /* border-radius: 185px; */
-    position: absolute;
-    left: 20px;
-    /* top: 1px; */
+  .nav-container .logo {
+    width: 150px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+  margin: 0 auto; 
+  position: relative;
+  left: -37rem;
   }
   
   .nav-menu {
@@ -73,23 +71,25 @@
   }
   
   .login-button {
-    background-color: transparent;
-    align-self: end;
-    font-weight: 400;
-    padding: 6px 15px;
-    border: 1px solid rgba(17, 9, 9, 0.3);
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    border-radius: 20px;
-    color: var(--text-color);
-    width: 120px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #393939;
+    color: #fffffff3;
+    border: 1px solid #3c3c3c7e;
+    transition: opacity 0.3s ease;
+  
+    position: relative;
+    right: 4.5rem;
+    top: 3rem;
+    height: 2.5rem;
   }
   
   .login-button:hover {
-    background-color: #3985dc;
-    color: white;
-    font-weight: 400;
+    opacity: 0.8;
+    color: #B1B8E4;
   }
   
   .nav-links {

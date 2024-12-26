@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css"
 
-import HeaderFooter from "./header";
-import Footer from "./footer";
+import MAinHeader from "./header";
+// import Footer from "./footer";
 // imgs
 import VDrLogo from "./assets/Images/VDr-logo.png";
 import GooglePlayLogo from "./assets/icons/apps/googleplay.jpeg";
@@ -27,6 +27,7 @@ import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import SosPage from "./sosPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
+import Header from "./header";
 
 function Homepage() {
   console.log("Contact Page Rendered");
@@ -266,16 +267,15 @@ function Homepage() {
 
   return (
     <>
-    <HeaderFooter/>
-      {/* HEADER PART */}
+    <MAinHeader/>
       <>
 
-              {/* Login/Signup Button (Right Side) */}
+              {/* Login/Signup Button (Right Side)
               <div className="auth-buttons">
                 <button className="login-btn" onClick={handleButtonClick}>
                   Login/Sign Up
                 </button>
-              </div>
+              </div> */}
         
       </>
 
@@ -461,7 +461,7 @@ function Homepage() {
             </div>
           </div>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
       </>
     </>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 import "./headerFooter.css";
 
-const HeaderFooter = () => {
+const Header = () => {
     return(
       <>
 <>
@@ -56,4 +56,4 @@ const HeaderFooter = () => {
 </>
     )
 }
- export default HeaderFooter;
+ export default Header;

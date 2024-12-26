@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./sosPage.css";
-import HeaderFooter from "./headerFooter";
+import Header from "./header";
+import Footer from "./footer";
 
 import DoctorVerification from "./doctorVerificationpage";
 import FindDoctorPage from "./findDoctorPage";
@@ -52,7 +53,7 @@ const SosPage = () => {
 
   return (
     <>
-    <HeaderFooter/>
+    <Header/>
 
       {/* SOS part */}
       <div className="div1">
@@ -69,8 +70,8 @@ const SosPage = () => {
         </>
       )}
 
-      
-    </>
+      <Footer/>
+          </>
   );
 };
 

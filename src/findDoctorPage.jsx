@@ -1,6 +1,6 @@
 import React from "react";
 import "./findDoctorPage.css";
-import HeaderFooter from "./headerFooter";
+import HeaderFooter from "./header";
 
 import DoctorVerification from "./doctorVerificationpage";
 // import FindDoctorPage from "./findDoctorPage";

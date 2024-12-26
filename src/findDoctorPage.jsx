@@ -13,9 +13,6 @@ import DoctorRegisterPage from "./doctorRegisterPage";
 const FindDoctorPage = () => {
   return (
     <>
-     
-<Header/>
-    
       <div className="search-section">
         <div className="location-wrapper">
           <div className="location-input" role="search">
@@ -57,9 +54,7 @@ const FindDoctorPage = () => {
         </div>
       </div>
 
-  
 
-      </>
   );
 };
 

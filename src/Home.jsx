@@ -1,6 +1,22 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css"
+// imgs
 import VDrLogo from "./assets/Images/VDr-logo.png";
+import GooglePlayLogo from "./assets/icons/apps/googleplay.jpeg";
+import AppStoreLogo from "./assets/icons/apps/appstore.jpeg";
+
+import CardiologistImg from "./assets/Images/Cardiologist.png";
+  import GynaecologistImg from "./assets/Images/gynaecologist.png";
+  import DentistImg from "./assets/Images/Dentist.png";
+  import GastroenterologistImg from "./assets/Images/Gastrologist.png";
+  import OrthopedistImg from "./assets/Images/Orthopedist.png";
+  import DiagnosticsImg from "./assets/Images/Diagnostics.png";
+  import DermatologistImg from "./assets/Images/Dermatologist.png";
+  import GeneralPhysicianImg from "./assets/Images/general physicians.png";
+  import NeurologistImg from "./assets/Images/Neurologist.png";
+  import PhysiotherapistImg from "./assets/Images/physiotherapist.png";
+  import PediatricianImg from "./assets/Images/Pediatrician.png";
+  import PulmonologistImg from "./assets/Images/pulmonologist.png";
 
 import DoctorVerification from "./doctorVerificationpage";
 import FindDoctorPage from "./findDoctorPage";
@@ -126,62 +142,62 @@ function Homepage() {
   const slidesData = [
     {
       title: "Cardiologist",
-      img: "./src/assets/Images/Cardiologist.png",
+      img: CardiologistImg,
       description: "Expert Care for a Healthier Heart",
     },
     {
       title: "Gynaecologist",
-      img: "./src/assets/Images/gynaecologist.png",
+      img: GynaecologistImg,
       description: "Women's health, expert care",
     },
     {
       title: "Dentist",
-      img: "./src/assets/Images/Dentist.png",
+      img: DentistImg,
       description: "Strong Teeth, Bright Smiles, Happy Life",
     },
     {
       title: "Gastroenterologist",
-      img: "./src/assets/Images/Gastrologist.png",
+      img: GastroenterologistImg,
       description: "Digestive health, better comfort",
     },
     {
       title: "Orthopedist",
-      img: "./src/assets/Images/Orthopedist.png",
+      img: OrthopedistImg,
       description: "Stronger bones, better mobility",
     },
     {
       title: "Diagnostics",
-      img: "./src/assets/Images/Diagnostics.png ",
+      img: DiagnosticsImg,
       description: "Precise tests, accurate results.",
     },
     {
       title: "Dermatologist",
-      img: "./src/assets/Images/Dermatologist.png ",
+      img: DermatologistImg,
       description: "Healthy skin, glowing confidence",
     },
     {
       title: "General Physician",
-      img: "./src/assets/Images/general physicians.png ",
+      img: GeneralPhysicianImg,
       description: "Comprehensive care, healthy living",
     },
     {
       title: "Neurologist",
-      img: "./src/assets/Images/Neurologist.png ",
+      img: NeurologistImg,
       description: "Your brain, our priority",
     },
     {
       title: "Physiotherapist",
-      img: "./src/assets/Images/physiotherapist.png",
+      img: PhysiotherapistImg,
       description: "Restoring movement, improving life",
     },
     {
       title: "Pediatrician",
-      img: "./src/assets/Images/Pediatrician.png ",
+      img: PediatricianImg,
       description: "Caring for children's wellness",
     },
     {
       title: "Pulmonologist",
-      img: "./src/assets/Images/pulmonologist.png ",
+      img: PulmonologistImg,
       description: "Breathing easy, health restored",
     },
   ];

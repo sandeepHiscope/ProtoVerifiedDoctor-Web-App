@@ -443,7 +443,7 @@ function Homepage() {
           <div className="preview">
             {/* If the image is in the public folder, use relative path */}
             <img
-              src="./src/assets/Images/VDr-logo.png"
+              src="/assets/Images/VDr-logo.png"
               height="400px"
               width="900px"
               alt="App Preview"

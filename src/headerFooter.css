@@ -51,13 +51,16 @@
   }
   
   .nav-container .logo {
-    width: 150px; /* Adjust the width as needed */
+    width: 10px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   display: block;
   margin: 0 auto; 
   position: relative;
-  left: -37rem;
+  left: -36rem;
+  top: 1rem;
   cursor: pointer;
+  /* background: #000; */
+  z-index: 1;
   }
   
   .nav-menu {

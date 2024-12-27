@@ -4,7 +4,7 @@ import "./Home.css"
 import MAinHeader from "./header";
 // import Footer from "./footer";
 // imgs
-import VDrLogo from "./assets/Images/VDr-logo.png";
+import VDrLogo from "./assets/Images/VDrlogo.png";
 import GooglePlayLogo from "./assets/icons/apps/googleplay.jpeg";
 import AppStoreLogo from "./assets/icons/apps/appstore.jpeg";
 

@@ -1,3 +1,5 @@
+
+
 .login-container{
     background-color: #fff;
     display: flex;
@@ -7,10 +9,11 @@
     position: absolute;
     top: 0%;
     left: 0%;
-    height: 250px;
-    /* border: 1px solid black; */
+    height: 260px;
+    z-index: 1;
   }
   
+ 
   .header-section {
     display: flex;
     flex-direction: column;
@@ -25,13 +28,14 @@
     font-size: 16px;
   }
   
-  .background-image {
+  .background-image-header{
     position: absolute;
     inset: 0;
     height: 250px;
     width: 100%;
     object-fit: cover;
     object-position: center;
+    /* border: 1px solid black; */
       
   }
   
@@ -50,17 +54,13 @@
 
   }
   
-  .nav-container .logo {
-    width: 10px; /* Adjust the width as needed */
+.header-logo {
+    width: 100px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
-  display: block;
-  margin: 0 auto; 
   position: relative;
-  left: -36rem;
+  left: 30px;
   top: 1rem;
   cursor: pointer;
-  /* background: #000; */
-  z-index: 1;
   }
   
   .nav-menu {
@@ -86,8 +86,8 @@
     transition: opacity 0.3s ease;
   
     position: relative;
-    right: 4.5rem;
-    top: 3rem;
+    right: 2rem;
+    top: 0.5rem;
     height: 2.5rem;
   }
   
@@ -154,37 +154,3 @@
   }
   
   
-  
-  .footer{
-    /*  */
-    position: absolute;
-    height: 250px;
-    width: 100%;
-    overflow: hidden;
-  /* top: 600px; */
-  bottom: 0%;
-  z-index: -1;
-
-  }
-  .background-image_footer{
-    height: 150px;
-  }
-  
-  
-  .footer-logo {
-    width: 100px;
-    border-radius: 185px;
-    position: absolute;
-    left: 45%;
-    top: 130px;
-    height: 100px;
-    /* z-index: 1; */
-  }
-  .footer-copyright h6{
-    top: 178px;
-    position: absolute;
-    left: 51.7%;
-    z-index: 1;
-    background-color: none; 
-    font-weight: 400;
-  }

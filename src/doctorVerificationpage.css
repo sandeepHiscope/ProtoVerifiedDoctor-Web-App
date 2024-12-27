@@ -8,32 +8,38 @@ body{
   margin: 0;
   padding: 0;
   background: #ffffff;
+  
 }
 
 .main-container{
-  width: 100vh;
+  width: 100%;
+  border: 1px solid #000;
+  position: relative;
+  top: 230px;
+  padding: 0%;
+  margin-left: auto;
+ 
 }
 .main-img img{
   background: #cb2b2b;
-  position: relative;
-  top: 20rem;
-  left: 0rem;
-  height: 40rem;
-  width: 90%;
+  position: absolute;
+  top: 15rem;
+  left: 20px;
+  height: 30rem;
+  width: 80vh;
   background-size: cover;
+  padding:0% ;
 }
 .verification-cont{
   /* background: #3a3a3a5f; */
   width: 40rem;
-  margin: 1rem;
-  padding: 1rem;
   position: relative;
   height: 80rem;
   align-items: top;
   justify-content:flex-start;
-  left: 45rem;
-  top:-35rem;
+  left: 34.5rem;
   z-index: 1;
+  border: 1px solid red;
 }
 .verify-a-doctor,
 .verify-a-doctor * {
@@ -1155,4 +1161,38 @@ body{
 height: 5rem;}
 .full-name-span{
   width: 20rem;
+}
+
+
+
+/* FOOTER PART */
+
+.doctorVerify-footer{
+  /*  */
+  position: absolute;
+  height: 280px;
+  width: 100%;
+  overflow: hidden;
+  top: 1700px;
+}
+
+
+
+
+.doctorVerify-footer-logo {
+  width: 100px;
+  border-radius: 185px;
+  position: absolute;
+  left: 45%;
+  top: 130px;
+  height: 100px;
+  /* z-index: 1; */
+}
+.doctorVerify-footer-copyright h6{
+  top: 178px;
+  position: absolute;
+  left: 51.7%;
+  z-index: 1;
+  background-color: none; 
+  font-weight: 400;
 }

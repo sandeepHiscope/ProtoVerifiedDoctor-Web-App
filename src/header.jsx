@@ -13,19 +13,19 @@ const MainHeader = () => {
     <>
       <div className="login-container">
         <section className="header-section">
-          
             <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/3816a04fcc74163bada0a2cbd8666252a1c3d39e2c479cd0c439e054a756e8a9?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
               alt="logo"
-              className="background-image"
+              className="background-image-header"
             />
         
           <nav className="nav-container">
-            <img
+            <a href="/home"><img
               src={VDrlogo}
               alt="VDrapp Logo"
-              className="logo"
-            />
+              className="header-logo"
+            /></a>
+           
             <div className="nav-menu">
               <div className="nav-links">
                 <a href="/findDoctorPage" className="nav-link">Find a Doctor</a>

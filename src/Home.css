@@ -259,7 +259,7 @@ body {
   width: 300px;
   margin: auto;
   position: absolute;
-  top: 12rem;
+  top: 13.5rem;
   left: 30%;
   display: flex;
   gap: 1px;
@@ -276,8 +276,10 @@ select {
   padding: 10px;
   margin: 10px 0;
   font-size: 14px;
-  border: 1px solid #ccc;
+  border: 1px solid #aaaaaa;
   border-radius: 4px;
+  cursor: text;
+  
 }
 
 option {
@@ -308,7 +310,7 @@ option {
 }
 #search{
   position: relative;
-  top: 2.2rem;
+  top: 3.822rem;
   width: 20rem;
   height: 2.5rem;
   border-radius: 4px;

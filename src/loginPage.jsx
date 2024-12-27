@@ -24,13 +24,16 @@ const Login = () => {
               alt="Healthcare illustration"
               className="hero-image"
             />
-          
-            <div className="separator"></div>
-        <div className="auth-tabs">
-          <div className="change">Login</div>
-         <a href='http://localhost:5175/'><div className="change">Register</div></a>
-        </div>
           </div>
+          <div className='change'></div>
+          <div className='position'>
+          <div className='h1'>
+          <h1>login</h1>
+          <a href="https://www.expressvpn.com/hp?utm_source=hp&utm_medium=partner&utm_campaign=HP-free-trial&utm_content=hp_jumpstarts_cta"><h1>Register</h1></a>
+          </div>
+          </div>
+
+          
         
         
           <div className="form-column">
@@ -53,7 +56,21 @@ const Login = () => {
           </div>
         </div>
       </main>
+      <footer className="login-footer">
+<img
+  src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c7c2f1f7f0ad4e4188183ac4b58840bac63df589165099f22e5a8c9c8da274d?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
+  alt=""
+  className="sos-background-image-footer"/>
 
+  <div className="sos-footer-div1">
+  <img
+          src="./public/vdr_2-removebg-preview-removebg-preview.png"
+          alt="VDrapp Footer Logo"
+          className="sos-footer-logo"
+        />
+ </div>
+ <div className="sos-footer-copyright"><h6> @Hiscope 2024 </h6></div>
+</footer>
     </>
   );
 }

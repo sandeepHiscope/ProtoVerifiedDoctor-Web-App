@@ -24,7 +24,15 @@ const Login = () => {
               alt="Healthcare illustration"
               className="hero-image"
             />
+          
+            <div className="separator"></div>
+        <div className="auth-tabs">
+          <div className="change">Login</div>
+         <a href='http://localhost:5175/'><div className="change">Register</div></a>
+        </div>
           </div>
+        
+        
           <div className="form-column">
             <form className="login-form">
               <label htmlFor="userInput" className="input-label">Mobile Number / Email ID</label>

@@ -1,7 +1,7 @@
 .auth-tabs {
   position: absolute;
-  top: 54%;
-  right: -13%;
+  top: -40%;
+  left: 138%;
   align-self: end;
   display: flex;
   width: 274px;
@@ -125,3 +125,12 @@
 .submit-button:hover{
   background-color: #3985dc;
 }
+.change{
+  width: 40%;
+  height: 20px;
+}
+.change:hover{
+  color: #30c7ed;
+  text-decoration: underline;
+}
+

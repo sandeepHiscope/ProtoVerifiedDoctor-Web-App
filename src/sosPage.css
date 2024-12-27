@@ -117,12 +117,12 @@ left: 0%;
 /* FOOTER PART */
 
 .sos-footer{
-  /*  */
   position: absolute;
   height: 280px;
   width: 100%;
   overflow: hidden;
   top: 600px;
+  left: 0%;
 }
 
 

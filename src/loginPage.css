@@ -25,9 +25,10 @@
 }
 
 .image-column {
-  width: 38%;
+  width: 28%;
   position: absolute;
-  top: 35%;
+  top: 39%;
+  left: 20px;
 }
 
 .hero-image {
@@ -41,8 +42,8 @@
   width: 32%;
   margin-left: 20px;
   position: absolute;
-  top: 30%;
-  left: 60%;
+  top: 40%;
+  left: 40%;
 }
 
 .login-form {
@@ -133,4 +134,22 @@
   color: #30c7ed;
   text-decoration: underline;
 }
+.h1{
+  font-size: 10px;
+  display: flex;
+  gap: 150px;
+  color: rgb(98, 95, 95);
+  font-family: "open sana";
+  text-decoration: none;
+}
+.position{
+  position: absolute;
+  top: 37%;
+  right:53%;
+}
 
+
+.h1:hover{
+  color: #30c7ed;
+  text-decoration: underline;
+}

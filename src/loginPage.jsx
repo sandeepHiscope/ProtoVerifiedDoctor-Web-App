@@ -24,13 +24,16 @@ const Login = () => {
               alt="Healthcare illustration"
               className="hero-image"
             />
-          
-            <div className="separator"></div>
-        <div className="auth-tabs">
-          <div className="change">Login</div>
-         <a href='http://localhost:5175/'><div className="change">Register</div></a>
-        </div>
           </div>
+          <div className='change'></div>
+          <div className='position'>
+          <div className='h1'>
+          <h1>login</h1>
+          <a href="https://www.expressvpn.com/hp?utm_source=hp&utm_medium=partner&utm_campaign=HP-free-trial&utm_content=hp_jumpstarts_cta"><h1>Register</h1></a>
+          </div>
+          </div>
+
+          
         
         
           <div className="form-column">

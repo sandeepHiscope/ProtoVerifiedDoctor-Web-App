@@ -36,113 +36,60 @@ function Homepage() {
     window.location.href = "/loginPage";
     };
 
-  // Define state for country, state, and search input
-  const [country, setCountry] = useState("");
-  const [selectedState, setSelectedState] = useState("");
-  const [searchQuery, setSearchQuery] = useState("");
-  const [filteredDoctors, setFilteredDoctors] = useState([]);
-
-  // States for India and USA
-  const states = {
-    india: [
-      "Andhra Pradesh",
-      "Arunachal Pradesh",
-      "Assam",
-      "Bihar",
-      "Chhattisgarh",
-      "Goa",
-      "Gujarat",
-      "Haryana",
-      "Himachal Pradesh",
-      "Jharkhand",
-      "Karnataka",
-      "Kerala",
-      "Madhya Pradesh",
-      "Maharashtra",
-      "Manipur",
-      "Meghalaya",
-      "Mizoram",
-      "Nagaland",
-      "Odisha",
-      "Punjab",
-      "Rajasthan",
-      "Sikkim",
-      "Tamil Nadu",
-      "Telangana",
-      "Tripura",
-      "Uttar Pradesh",
-      "Uttarakhand",
-      "West Bengal",
-    ],
-    usa: [
-      "California",
-      "Texas",
-      "Florida",
-      "New York",
-      "Illinois",
-      "Pennsylvania",
-      "Ohio",
-      "Georgia",
-      "North Carolina",
-      "Michigan",
-      "New Jersey",
-      "Virginia",
-      "Washington",
-      "Arizona",
-      "Massachusetts",
-      "Tennessee",
-      "Indiana",
-      "Missouri",
-      "Maryland",
-      "Wisconsin",
-    ],
-  };
-
-  // List of doctor types
-  const doctorTypes = [
-    "Dentist",
-    "Cardiologist",
-    "Dermatologist",
-    "Pediatrician",
-    "Orthopedic",
-    "General Physician",
-    "ENT Specialist",
-    "Gynecologist",
-    "Urologist",
-    "Neurologist",
-    "Psychiatrist",
-    "Oncologist",
-    "Gastroenterologist",
-  ];
-
-  // Update state dropdown based on selected country
-  const updateStates = (e) => {
-    setCountry(e.target.value);
-    setSelectedState("");
-  };
-
-  // Filter doctor types based on search query
-  const handleSearchChange = (e) => {
-    const query = e.target.value;
-    setSearchQuery(query);
-
-    // Filter doctor types based on query
-    if (query) {
-      const filtered = doctorTypes.filter((doctor) =>
-        doctor.toLowerCase().includes(query.toLowerCase())
-      );
-      setFilteredDoctors(filtered);
-    } else {
-      setFilteredDoctors([]);
-    }
-  };
-
-  // Select doctor type from suggestions
-  const selectDoctorType = (doctor) => {
-    setSearchQuery(doctor);
-    setFilteredDoctors([]); // Hide suggestions after selection
-  };
-
+   // Define state for country, state, and search input
+   const [country, setCountry] = useState('');
+   const [selectedState, setSelectedState] = useState('');
+   const [searchQuery, setSearchQuery] = useState('');
+   const [filteredDoctors, setFilteredDoctors] = useState([]);
+ 
+   // States for India and USA
+   const states = {
+     india: [
+       "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana",
+       "Himachal Pradesh", "Jharkhand", "Karnataka", "Kerala", "Madhya Pradesh", "Maharashtra", "Manipur",
+       "Meghalaya", "Mizoram", "Nagaland", "Odisha", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu",
+       "Telangana", "Tripura", "Uttar Pradesh", "Uttarakhand", "West Bengal"
+     ],
+     usa: [
+       "California", "Texas", "Florida", "New York", "Illinois", "Pennsylvania", "Ohio", "Georgia", "North Carolina",
+       "Michigan", "New Jersey", "Virginia", "Washington", "Arizona", "Massachusetts", "Tennessee",
+       "Indiana", "Missouri", "Maryland", "Wisconsin"
+     ]
+   };
+ 
+   // List of doctor types
+   const doctorTypes = [
+     "Dentist", "Cardiologist", "Dermatologist", "Pediatrician", "Orthopedic", "General Physician", 
+     "ENT Specialist", "Gynecologist", "Urologist", "Neurologist", "Psychiatrist", "Oncologist", "Gastroenterologist"
+   ];
+ 
+   // Update state dropdown based on selected country
+   const updateStates = (e) => {
+     setCountry(e.target.value);
+     setSelectedState('');
+   };
+ 
+   // Filter doctor types based on search query
+   const handleSearchChange = (e) => {
+     const query = e.target.value;
+     setSearchQuery(query);
+ 
+     // Filter doctor types based on query
+     if (query) {
+       const filtered = doctorTypes.filter(doctor =>
+         doctor.toLowerCase().includes(query.toLowerCase())
+       );
+       setFilteredDoctors(filtered);
+     } else {
+       setFilteredDoctors([]);
+     }
+   };
+ 
+   // Select doctor type from suggestions
+   const selectDoctorType = (doctor) => {
+     setSearchQuery(doctor);
+     setFilteredDoctors([]); // Hide suggestions after selection
+   };
   const slidesData = [
     {
       title: "Cardiologist",

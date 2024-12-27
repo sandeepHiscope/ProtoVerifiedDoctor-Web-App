@@ -654,3 +654,33 @@ option {
   height: 68vh; /* Makes the background cover the full viewport height */
   margin: 0; /* Removes default body margin */
 }
+
+
+/* FOOTER PART */
+
+.home-footer{
+  /*  */
+  position: absolute;
+  height: 280px;
+  width: 100%;
+  overflow: hidden;
+  top: 1500px;
+}
+
+.home-footer-logo {
+  width: 100px;
+  border-radius: 185px;
+  position: absolute;
+  left: 45%;
+  top: 130px;
+  height: 100px;
+  /* z-index: 1; */
+}
+.home-footer-copyright h6{
+  top: 178px;
+  position: absolute;
+  left: 51.7%;
+  z-index: 1;
+  background-color: none; 
+  font-weight: 400;
+}

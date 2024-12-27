@@ -5,8 +5,8 @@ import MAinHeader from "./header";
 // import Footer from "./footer";
 // imgs
 import VDrLogo from "./assets/Images/VDrlogo.png";
-import GooglePlayLogo from "./assets/icons/apps/googleplay.jpeg";
-import AppStoreLogo from "./assets/icons/apps/appstore.jpeg";
+import GooglePlayLogo from "./assets/icons/apps/ggleplay.png";
+import AppStoreLogo from "./assets/icons/apps/applestore.png";
 
 import CardiologistImg from "./assets/Images/Cardiologist.png";
   import GynaecologistImg from "./assets/Images/gynaecologist.png";
@@ -32,9 +32,10 @@ import Header from "./header";
 function Homepage() {
   console.log("Contact Page Rendered");
   // Function to handle button click
-  const handleButtonClick = () => {
-    window.location.href = "/loginPage";
-    };
+  const handleButtonClick = (store) => {
+    alert(`Redirecting to ${store}`);
+    // Add your redirection logic here
+  };
 
   // Define state for country, state, and search input
   const [country, setCountry] = useState("");
@@ -429,7 +430,7 @@ function Homepage() {
             <div className="preview">
               <img
                 src={VDrLogo}
-                height="400px"
+               height="400px"
                 width="900px"
                 alt="App Preview"
               />
@@ -441,21 +442,17 @@ function Homepage() {
                 access to healthcare.
               </p>
               <div className="store-buttons">
-                <div className="store-button">
+                <div className="store-button" onClick={() => handleButtonClick('Google Play Store')}>
                   <img
                     src={GooglePlayLogo}
                     alt="Google Play"
-                    style={{ width: "30px", borderRadius: "20px" }}
                   />
-                  <span>Play Store</span>
                 </div>
-                <div className="store-button">
+                <div className="store-button" onClick={() => handleButtonClick('Apple App Store')}>
                   <img
                     src={AppStoreLogo}
                     alt="Apple App Store"
-                    style={{ width: "30px", borderRadius: "20px" }}
                   />
-                  <span>App Store</span>
                 </div>
               </div>
             </div>

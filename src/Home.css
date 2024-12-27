@@ -652,7 +652,7 @@ option {
   padding: 2px; 
   /* background-color: #181111;  */
   border-radius: 5px;
-  color: #ffffff; 
+   /* color: #ffffff;   */
 }
 
 .store-button:hover {
@@ -663,21 +663,12 @@ option {
 width: 150px; /* Adjust width as needed */
 height: auto; /* Maintain aspect ratio */
 border-radius: 4px; /* Match border radius with the background block */
-box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+ box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); 
 
 }
 
        
-.desktop-1,
-.desktop-1 * {
-  box-sizing: border-box;
-}
-.desktop-1 {
-  background: #ffffff;
-  height: 250px;
-  overflow: hidden;
-  
-}
+
 
 
 
@@ -688,7 +679,6 @@ box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
   margin: 0; /* Removes default body margin */
 }
 
-<<<<<<< Updated upstream
 
 /* FOOTER PART */
 
@@ -718,7 +708,8 @@ box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
   z-index: 1;
   background-color: none; 
   font-weight: 400;
-=======
+}
+
 /* Styles for Google Play and App Store images */
 .store-images {
   display: flex;
@@ -729,10 +720,8 @@ box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
 .store-images img {
-  width: 150px; /* Adjust width as needed */
-  height: 50px; /* Set a fixed height to ensure uniform size */
+  width: 200px; /* Adjust width as needed */
+  height: 100px; /* Maintain aspect ratio */
   border-radius: 4px; /* Match border radius with the background block */
-  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
-  object-fit: cover; /* Ensure the image covers the area */
->>>>>>> Stashed changes
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.); /* Add subtle shadow */
 }

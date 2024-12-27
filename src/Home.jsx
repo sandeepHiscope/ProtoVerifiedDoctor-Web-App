@@ -5,7 +5,7 @@ import MAinHeader from "./header";
 // import Footer from "./footer";
 // imgs
 import VDrLogo from "./assets/Images/VDrlogo.png";
-import GooglePlayLogo from "./assets/icons/apps/ggleplay.png";
+import GooglePlayLogo from "./assets/icons/apps/ggleplay.png"; 
 import AppStoreLogo from "./assets/icons/apps/applestore.png";
 
 import CardiologistImg from "./assets/Images/Cardiologist.png";
@@ -442,16 +442,15 @@ function Homepage() {
                 access to healthcare.
               </p>
               <div className="store-buttons">
-                <div className="store-button" onClick={() => handleButtonClick('Google Play Store')}>
+                <div className="store-button">
                   <img
                     src={GooglePlayLogo}
-                    alt="Google Play"
+                     alt="Google Play Store"
                   />
                 </div>
-                <div className="store-button" onClick={() => handleButtonClick('Apple App Store')}>
-                  <img
-                    src={AppStoreLogo}
-                    alt="Apple App Store"
+                <div className="store-button">
+                  <img src={AppStoreLogo}  
+                     alt="Apple app Store"
                   />
                 </div>
               </div>

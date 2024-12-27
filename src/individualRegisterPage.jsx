@@ -11,6 +11,7 @@ import DoctorRegisterPage from "./doctorRegisterPage";
 
 const IndividualRegisterPage = () => {
   return (
+  
     <div className="login-container">
       <section className="header-section">
         <img
@@ -79,7 +80,7 @@ const IndividualRegisterPage = () => {
               />
 
               <label htmlFor="userInput" className="input-label">
-                Mobile Number / Email ID
+                Mobile Number/ Email ID
               </label>
               <input
                 type="text"

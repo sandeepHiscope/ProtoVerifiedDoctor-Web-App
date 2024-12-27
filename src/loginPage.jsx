@@ -29,7 +29,7 @@ const Login = () => {
           <div className='position'>
           <div className='h1'>
           <h1>login</h1>
-          <a href="https://www.expressvpn.com/hp?utm_source=hp&utm_medium=partner&utm_campaign=HP-free-trial&utm_content=hp_jumpstarts_cta"><h1>Register</h1></a>
+          <a href="http://localhost:5177/"><h1>Register</h1></a>
           </div>
           </div>
 

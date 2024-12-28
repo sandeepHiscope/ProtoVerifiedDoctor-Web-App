@@ -1,4 +1,5 @@
-import React from 'react';
+import { useState } from 'react'
+
 import "./loginPage.css"; // Import the CSS file
 
 import DoctorVerification from "./doctorVerificationpage";
@@ -11,52 +12,133 @@ import DoctorRegisterPage from "./doctorRegisterPage";
 import MainHeader from './header';
 
 const Login = () => {
+  const [activeTab, setActiveTab] = useState("login");
+  const [role, setRole] = useState("");
+
+  const showLogin = () => {
+    setActiveTab("login");
+    setRole("");
+  };
+
+  const showRegister = () => {
+    setActiveTab("register");
+    setRole("");
+  };
+
+  const showDoctorForm = () => {
+    setRole("doctor");
+  };
+
+  const showUserForm = () => {
+    setRole("user");
+  };
+
+  const goBack = () => {
+    setRole(""); // Reset role to go back to role selection
+  };
   return (
+    
     <>
     <>
     <MainHeader  />
-    </>
-    <main className="main-content">
-        <div className="content-wrapper">
-          <div className="image-column">
-            <img
+    <div className='login-change'>
+    <img
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/b07d1dfbb02eae67caa3e2cfdf5c9867238ca7e72eb515ca4ba7a5fa71896a65?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
               alt="Healthcare illustration"
               className="hero-image"
             />
-          </div>
-          <div className='change'>
-          <div className='position'>
-          <div className='h1'>
-          <h1>login</h1>
-          <a href="http://localhost:5174/"><h1>Register</h1></a>
-          </div>
-          </div>
-          </div>
+            </div>
+    <div className="container">
+      {/* Tabs for Login and Register */}
+      <div className="tabs">
+        <button
+          className={`tab-btn ${activeTab === "login" ? "active" : ""}`}
+          onClick={showLogin}
+        >
+          Login
+        </button>
+        <button
+          className={`tab-btn ${activeTab === "register" ? "active" : ""}`}
+          onClick={showRegister}
+        >
+          Register
+        </button>
+      </div>
 
-          
-        
-        
-          <div className="form-column">
-            <form className="login-form">
-              <label htmlFor="userInput" className="input-label">Mobile Number / Email ID</label>
-              <input type="text" id="userInput" className="form-input" placeholder="Mobile Number / Email ID" />
-
-              <label htmlFor="passwordInput" className="input-label">Password</label>
-              <input type="password" id="passwordInput" className="form-input" placeholder="Password" />
-
-              <a href="#" className="forgot-password">Forgot password ?</a>
-
-              <div className="checkbox-container">
-                <input type="checkbox" id="otpLogin" className="checkbox" />
-                <label htmlFor="otpLogin">Login with Otp instead of Password</label>
-              </div>
-
-              <button type="submit" className="submit-button">Login</button>
-            </form>
-          </div>
+      {/* Login Form */}
+      {activeTab === "login" && (
+        <div className="form-container">
+          <h2>Login</h2>
+          <form action="#">
+            <input type="text" placeholder="Username" required />
+            <input type="password" placeholder="Password" required />
+            <button type="submit">Login</button>
+            <div className='forget'>
+              Forget password ?
+            </div>
+            <div className='h1'>----continue with----</div>
+            <img
+              src="./src/assets/google.png"
+              alt="google"
+              className="small-image"
+            />
+             
+          </form>
         </div>
-      </main>
+      )}
+
+      {/* Register Form */}
+      {activeTab === "register" && !role && (
+        <div className="form-container">
+          <h2>Register</h2>
+          <button className="role-btn" onClick={showDoctorForm}>
+            
+            Are you a Doctor?
+          </button>
+          <button className="role-btn" onClick={showUserForm}>
+            User
+          </button>
+         
+          <div className='title1'><li>If you are a doctor click on the "Are you a Doctor" button</li></div>
+          <div className='title2'><li>If you are a user click on the "user" button</li></div>
+          <div className='title3'><li>Register in our VDR app and get ultra benfits and discounts. </li></div>
+
+
+        </div>
+      )}
+
+      {/* Doctor Registration Form */}
+      {role === "doctor" && (
+        <div className="form-container">
+          <h2>Doctor Registration</h2>
+          <form action="#">
+            <input type="text" placeholder="Doctor's Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
+            <button type="submit">Register</button>
+          </form>
+          <button className="role-btn" onClick={goBack}>Back</button>
+        </div>
+      )}
+
+      {/* User Registration Form */}
+      {role === "user" && (
+        <div className="form-container">
+          <h2>User Registration</h2>
+          <form action="#">
+            <input type="text" placeholder="Username" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
+            <button type="submit">Register</button>
+          </form>
+          <button className="role-btn" onClick={goBack}>Back</button>
+        </div>
+      )}
+      </div>
+
+    </>
+
+    
       <footer className="login-footer">
 <img
   src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c7c2f1f7f0ad4e4188183ac4b58840bac63df589165099f22e5a8c9c8da274d?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"

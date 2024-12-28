@@ -1,159 +1,194 @@
-.auth-tabs {
-  position: absolute;
-  top: -40%;
-  left: 138%;
-  align-self: end;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
   display: flex;
-  width: 274px;
-  max-width: 100%;
-  gap: 40px;
-  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  position: absolute;
+  top:37%;
+
+}
+
+.tabs {
+  display: flex;
   justify-content: space-between;
-  margin: 93px 362px 0 0;
+  margin-bottom: 20px;
 }
 
-
-.main-content {
-  width: 100%;
-  max-width: 1123px;
-  margin: -78px 0 0 104px;
-}
-
-.content-wrapper {
-  gap: 20px;
-  display: flex;
-}
-
-.image-column {
-  width: 28%;
-  position: absolute;
-  top: 39%;
-  left: 20px;
-}
-
-.hero-image {
-  aspect-ratio: 1.6;
-  object-fit: contain;
-  object-position: center;
-  width: 100%;
-}
-
-.form-column {
-  width: 32%;
-  margin-left: 20px;
-  position: absolute;
-  top: 40%;
-  left: 40%;
-}
-
-.login-form {
-  border-radius: 20px;
-  background-color: #fff;
-  width: 100%;
-  text-align: center;
-  margin: 23px auto 0;
-  padding: 49px 48px 25px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  border: 1px solid #b4afaf;
-  
-  
-}
-
-.input-label {
-  color: #8a8989;
-  font-size: 20px;
-  align-self: start;
- 
- 
-}
-
-.form-input {
-  border-radius: 5px;
-  background-color: #fff;
-  margin-top: 5px;
-  color: #000000;
-  padding: 17px 10px;
-  border: 1px solid #a4a0a0;
-  width: 100%;
-}
-
-.forgot-password {
-  color: #30c7ed;
-  align-self: end;
-  margin-top: 10px;
-  position: absolute;
-  top: 62%;
-  right: 5%;
-  text-decoration: none;
-}
-.forgot-password:hover{
-  color: #9f9797;
-  text-decoration: underline;
-}
-
-.checkbox-container {
-  align-self: start;
-  display: flex;
-  gap: 18px;
-  font-size: 13px;
-  color: #9f9797;
-  margin: 27px 0 0 15px;
-}
-
-.checkbox {
-  background-color: #fff;
-  width: 15px;
-  height: 14px;
-  border: 1px solid #413f3f;
-  position: absolute;
-  top: 71.5%;
-  right: 90%;
-}
-
-.submit-button {
-  border-radius: 10px;
-  background-color: #5095b4;
-  align-self: center;
-  margin-top: 31px;
-  width: 253px;
-  font-size: 15px;
-  color: #fff;
-  padding: 12px 70px;
+.tab-btn {
+  background: #ddd;
   border: none;
+  padding: 10px;
+  width: 8%;
   cursor: pointer;
+  transition: background 0.3s ease;
 }
-.submit-button:hover{
-  background-color: #3985dc;
+
+.tab-btn.active {
+  background: #007bff;
+  color: white;
 }
-.change{
-  width: 40%;
-  height: 20px;
-  text-decoration: none;
+
+.form-container {
+  display: block;
 }
-.change:hover{
-  color: #30c7ed;
-  text-decoration: underline;
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-container button:hover {
+  background: #0056b3;
+}
+
+.role-btn {
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.role-btn:hover {
+  background: #218838;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 395px;
+  border: 1px solid rgb(176, 176, 176);
+}
+.forget{
+  position: absolute;
+  top: 75%;
+  right: 5px;
+  font-family: open sana;
+}
+.forget:hover{
+  color: rgb(20, 106, 205);
 }
 .h1{
-  font-size: 10px;
-  display: flex;
-  gap: 150px;
-  color: rgb(98, 95, 95);
-  font-family: "open sana";
-  text-decoration: none;
-}
-.position{
+  font-size: 20px;
+  font-family: open sana;
+  color: rgb(22, 22, 22);
   position: absolute;
-  top: 37%;
-  right:53%;
+  top: 78%;
 }
 
-
-.h1:hover{
-  color: #30c7ed;
-  text-decoration: underline;
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
+
+.tab-btn {
+  background: #ddd;
+  border: none;
+  padding: 10px;
+  width: 48%;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.tab-btn.active {
+  background: #007bff;
+  color: white;
+}
+
+.form-container {
+  display: block;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form-container button:hover {
+  background: #0056b3;
+}
+
+.role-btn {
+  width: 100%;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.role-btn:hover {
+  background: #218838;
+}
+
+  
 .login-footer{
   position: absolute;
   height: 280px;
@@ -178,4 +213,44 @@
   z-index: 1;
   background-color: none; 
   font-weight: 400;
+}
+.login-change{
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  overflow: hidden;
+  
+}
+.hero-image{
+height: 280px;
+width: 500px;
+object-fit: cover;
+}
+.small-image{
+  height:40px;
+  width:40px;
+  position: absolute;
+  top: 87%;
+  left: 50%;
+}
+.title1{
+  font-size: 15px;
+  position: absolute;
+  top: 65%;
+  font-family: open sana;
+}
+.title2{
+  font-size: 15px;
+  position: absolute;
+  top: 75%;
+  font-family: open sana;
+}
+.title3{
+  font-size: 15px;
+  position: absolute;
+  top: 85%;
+  font-family: open sana;
+  color: rgb(32, 14, 169);
 }

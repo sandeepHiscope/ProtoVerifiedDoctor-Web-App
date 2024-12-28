@@ -11,6 +11,7 @@ import DoctorRegisterPage from "./doctorRegisterPage";
 
 const IndividualRegisterPage = () => {
   return (
+  
     <div className="login-container">
       <section className="header-section">
         <img
@@ -50,10 +51,10 @@ const IndividualRegisterPage = () => {
         </nav>
         <div className="separator"></div>
         <div className="auth-tabs">
-          <a href="http://localhost:5176/">
+          <a href="http://localhost:5174/loginPage">
             <div className="change">Login</div>
           </a>
-          <div className="change">Register</div>
+         <a href="http://localhost:5175/"> <div className="change">Register</div></a>
         </div>
       </section>
 
@@ -79,7 +80,7 @@ const IndividualRegisterPage = () => {
               />
 
               <label htmlFor="userInput" className="input-label">
-                Mobile Number / Email ID
+                Mobile Number/ Email ID
               </label>
               <input
                 type="text"

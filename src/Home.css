@@ -291,7 +291,7 @@ body {
   width: 300px;
   margin: auto;
   position: absolute;
-  top: 13.5rem;
+  top: 16.5rem;
   left: 30%;
   display: flex;
   gap: 1px;
@@ -342,7 +342,7 @@ option {
 }
 #search{
   position: relative;
-  top: 3.822rem;
+  top: 6.70rem;
   width: 20rem;
   height: 2.5rem;
   border-radius: 4px;
@@ -391,7 +391,7 @@ option {
   font-family: open sans;
   font-size: 10px;
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 35%;
 }
 .body2 {
@@ -416,7 +416,7 @@ option {
   overflow: hidden;
   border: 2px solid #ffffff;
   border-radius: 10px;
-  background: rgb(238, 238, 238);
+  background: rgb(255, 255, 255);
   
 }
 .slides {
@@ -433,7 +433,7 @@ option {
   width: 100%;
   height: auto;
   display: block;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #ffffff;
   margin-bottom: 20px;
   border-radius: 10px;
 }

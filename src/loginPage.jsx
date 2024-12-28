@@ -29,7 +29,7 @@ const Login = () => {
           <div className='position'>
           <div className='h1'>
           <h1>login</h1>
-          <a href="http://localhost:5177/"><h1>Register</h1></a>
+          <a href="http://localhost:5174/"><h1>Register</h1></a>
           </div>
           </div>
           </div>

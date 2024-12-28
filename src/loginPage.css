@@ -129,6 +129,7 @@
 .change{
   width: 40%;
   height: 20px;
+  text-decoration: none;
 }
 .change:hover{
   color: #30c7ed;

@@ -19,15 +19,12 @@ body {
 
 /* Header Styles */
 .header {
-  /* background: #000; */
   color: #000000;
   padding: 12px;
   position: relative;
   width: 100vw;
-  /* width: 1490px; */
-
   top: -5px;
-  left: -0rem;
+  left: 0;
   z-index: 1000;
   box-shadow: 0 4px 9px rgba(251, 249, 249, 0.1); /* Subtle shadow for header */
 }
@@ -35,7 +32,44 @@ body {
 /* Container for header content */
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  width: 100%;
+  max-width: 1490px;
+  height: 7rem;
+  margin: 0 auto;
+  position: relative;
+  top: -12px;
+}
+
+/* Logo Styles */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+  background-color: transparent; /* Ensure background color is removed */
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Container for header content */
+.header-container {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
   align-items: center;
   width: 1490px;
   /* width: 100vw; */
@@ -128,7 +162,7 @@ body {
 @media screen and (max-width: 1024px) {
   .header-container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center; /* Center content horizontally */
   }
 
   .navbar ul {
@@ -145,13 +179,11 @@ body {
 @media screen and (max-width: 768px) {
   .header-container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center; /* Center content horizontally */
   }
 
   .navbar ul {
     flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
   }
 
   .auth-buttons {
@@ -618,33 +650,25 @@ option {
   display: flex; 
   align-items: center; 
   padding: 2px; 
-  background-color: #181111; 
+  /* background-color: #181111;  */
   border-radius: 5px;
-  color: #ffffff; 
+   /* color: #ffffff;   */
 }
 
 .store-button:hover {
-  background-color: rgb(113, 113, 113);
+  /* background-color: rgb(113, 113, 113); */
 }
 
-.store-button img { 
-  width: 10px;
-  height: 10px; 
-  margin-right: 10px;
-  border-radius: 20px; 
+.store-button img {
+width: 150px; /* Adjust width as needed */
+height: auto; /* Maintain aspect ratio */
+border-radius: 4px; /* Match border radius with the background block */
+ box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1); 
+
 }
 
        
-.desktop-1,
-.desktop-1 * {
-  box-sizing: border-box;
-}
-.desktop-1 {
-  background: #ffffff;
-  height: 250px;
-  overflow: hidden;
-  
-}
+
 
 
 
@@ -684,4 +708,20 @@ option {
   z-index: 1;
   background-color: none; 
   font-weight: 400;
+}
+
+/* Styles for Google Play and App Store images */
+.store-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust gap between images as needed */
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.store-images img {
+  width: 200px; /* Adjust width as needed */
+  height: 100px; /* Maintain aspect ratio */
+  border-radius: 4px; /* Match border radius with the background block */
+  box-shadow: 0 4px 9px rgba(0, 0, 0, 0.); /* Add subtle shadow */
 }

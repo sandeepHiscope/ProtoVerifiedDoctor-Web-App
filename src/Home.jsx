@@ -2,8 +2,14 @@ import React, { useState, useEffect } from "react";
 import "./Home.css"
 
 import MAinHeader from "./header";
-// import Footer from "./footer";
-// imgs
+
+import DoctorVerification from "./doctorVerificationpage";
+import FindDoctorPage from "./findDoctorPage";
+import Home from "./Home";
+import Login from "./loginPage";
+import IndividualRegisterPage from "./individualRegisterPage";
+import DoctorRegisterPage from "./doctorRegisterPage";
+
 import VDrLogo from "./assets/Images/VDrlogo.png";
 import GooglePlayLogo from "./assets/icons/apps/ggleplay.png"; 
 import AppStoreLogo from "./assets/icons/apps/applestore.png";
@@ -21,13 +27,6 @@ import CardiologistImg from "./assets/Images/Cardiologist.png";
   import PediatricianImg from "./assets/Images/Pediatrician.png";
   import PulmonologistImg from "./assets/Images/pulmonologist.png";
 
-import DoctorVerification from "./doctorVerificationpage";
-import FindDoctorPage from "./findDoctorPage";
-import Login from "./loginPage";
-import IndividualRegisterPage from "./individualRegisterPage";
-import SosPage from "./sosPage";
-import DoctorRegisterPage from "./doctorRegisterPage";
-import Header from "./header";
 
 function Homepage() {
   console.log("Contact Page Rendered");
@@ -239,8 +238,7 @@ function Homepage() {
       {/* Dropdown Part */}
 
       <>
-      
-        <div>
+
           {/* Dropdown for country and state */}
           <div className="dropdown-container">
             <div className="input-container">

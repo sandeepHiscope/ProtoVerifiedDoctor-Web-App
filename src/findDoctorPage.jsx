@@ -45,13 +45,13 @@ const FindDoctorPage = () => {
               alt="Search icon"
             />
             <label htmlFor="doctor-search" className="visually-hidden">
-              Search for doctors, clinics, hospitals, or specializations
+            Search for doctors, clinics, hospitals, or specializations
             </label>
             <input
               type="text"
               id="doctor-search"
               className="search-placeholder"
-              placeholder="Search by doctors, clinics, hospitals, Specialization etc.,"
+              placeholder="        Search for doctors, clinics, hospitals, or specializations,"
             />
           </div>
         </div>

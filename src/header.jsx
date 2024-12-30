@@ -34,6 +34,7 @@ const MainHeader = () => {
                 <a href="#" className="nav-link">Home Delivery Medicines</a>
                 <a href="#" className="nav-link">Micro Insurance</a>
                 <a href="#" className="nav-link">Regular Insurance</a>
+                <a href="/founderPage" className="nav-link">Founder Page</a>
               </div>
             </div>
             <button className="login-button-header" onClick={LoginButtonClick}>Login/Signup</button>

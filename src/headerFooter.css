@@ -68,10 +68,8 @@
     flex-direction: column;
     margin: auto 0;
     position: absolute;
-    top: 50px;
-    left: 170px;
-   
-    
+    top: 60px;
+    left: 170px; 
   }
   
   .login-button-header {
@@ -124,9 +122,10 @@
     align-self: start;
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
     font-weight: 700;
     flex-wrap: wrap;
+
   }
   
   .nav-link {

@@ -298,15 +298,7 @@ body {
   
 }
 #country{
-  height: 2.5rem;
-  position: relative;
-  right: 10px;
-}
-#state{
-  border: 1px solid black;
-  height: 2.5rem;
-  position: relative;
-  top: 2px;
+
 }
 select {
   width: 100%;
@@ -341,7 +333,7 @@ option {
 
 .search-container2 {
   position: absolute;
-  top: 26.5%;
+
   left: 55%;
   width: 300px;
 }
@@ -729,4 +721,10 @@ border-radius: 4px; /* Match border radius with the background block */
   height: 100px; /* Maintain aspect ratio */
   border-radius: 4px; /* Match border radius with the background block */
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.); /* Add subtle shadow */
+}
+.new{
+  display: flex;
+  position: absolute;
+  top: 30%;
+  left: 10%;
 }

@@ -11,199 +11,205 @@ import DoctorRegisterPage from "./doctorRegisterPage";
 import MainHeader from "./header";
 
 const DoctorVerification = () => {
-  const [fullName, setFullName] = useState("");
-  const [medicalLicenseNumber, setMedicalLicenseNumber] = useState("");
-  const [medicalSpeciality, setMedicalSpeciality] = useState("");
-  const [hospitalCurrentWorking, setHospitalCurrentWorking] = useState("");
-  const [experience, setExperience] = useState("");
-  const [complaints, setComplaints] = useState("");
-  const [description, setDescription] = useState("");
+  const [count, setCount] = useState(0)
+  const [formData, setFormData] = useState({
+    fullName: '',
+    medicalLicenseNumber: '',
+    medicalLicense: null,
+    medicalSpecialty: '',
+    boardCertificate: null,
+    educationBackground: '',
+    educationCertificates: null,
+    hospitalWorking: '',
+    experience: '',
+    hospitalClinic: '',
+    complaints: '',
+    description: '',
+  });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log({
-      fullName,
-      medicalLicenseNumber,
-      medicalSpeciality,
-      hospitalCurrentWorking,
-      experience,
-      complaints,
-      description,
+  // Handle change for text and select inputs
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value,
     });
   };
+
+  // Handle file input change
+  const handleFileChange = (e) => {
+    const { name, files } = e.target;
+    setFormData({
+      ...formData,
+      [name]: files[0], // Only take the first file (if multiple)
+    });
+  };
+
+  // Handle form submit
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Logic for form submission
+    console.log(formData);
+  };
+     
 
   return (
 
     <>
     <MainHeader />
+    
    
-    <div className="main-container">
-      <div className="main-img">
-        <img src={imgx} alt="main-img" />
-      </div>
-      <div className="verification-cont">
-        <div className="doctor-verification">Doctor Verification</div>
-        <div className="full-name">
-          <span>
-            <span className="full-name-span">Full Name:</span>
-            <span className="full-name-span2">*</span>
-          </span>
-        </div>
-        <div className="medical-license-number">
-          <span>
-            <span className="medical-license-number-span">
-              Medical License Number:
-            </span>
-            <span className="medical-license-number-span2">*</span>
-          </span>
-        </div>
-        <div className="upload-medical-license">
-          <span>
-            <span className="upload-medical-license-span">
-              Upload Medical License:
-            </span>
-            <span className="upload-medical-license-span2">*</span>
-          </span>
-        </div>
-        <div className="medical-speciality">
-          <span>
-            <span className="medical-speciality-span">Medical Speciality:</span>
-            <span className="medical-speciality-span2">*</span>
-          </span>
-        </div>
-        <div className="upload-board-certificate">
-          <span>
-            <span className="upload-board-certificate-span">
-              Upload Board Certificate:
-            </span>
-            <span className="upload-board-certificate-span2">*</span>
-          </span>
-        </div>
-        <div className="input-feild-4">
+    <div className="doctorverification-container">
+      <h2>Doctor Verification Form</h2>
+      <form onSubmit={handleSubmit}>
+        <div className="form-group">
+          <label htmlFor="full-name">Full Name <span className='from-group-span'>*</span></label>
           <input
             type="text"
-            className="input"
-            value={fullName}
-            onChange={(e) => setFullName(e.target.value)}
-          />
-        </div>
-        <div className="input-feild-6">
-          <input
-            type="text"
-            className="input"
-            value={medicalLicenseNumber}
-            onChange={(e) => setMedicalLicenseNumber(e.target.value)}
-          />
-        </div>
-        <div className="group-71">
-          <div className="upload"></div>
-          <div className="choose-file">Choose file</div>
-        </div>
-        <div className="input-feild-7">
-          <input
-            type="text"
-            className="input"
-            value={medicalSpeciality}
-            onChange={(e) => setMedicalSpeciality(e.target.value)}
-          />
-        </div>
-        <div className="group-70">
-          <div className="upload"></div>
-          <div className="choose-file">Choose file</div>
-        </div>
-        <div className="educational-background">
-          <span>
-            <span className="educational-background-span">
-              Educational Background:
-            </span>
-            <span className="educational-background-span2">*</span>
-          </span>
-        </div>
-        <div className="upload-educational-certificates">
-          <span>
-            <span className="upload-educational-certificates-span">
-              Upload Educational Certificates:
-            </span>
-            <span className="upload-educational-certificates-span2">*</span>
-          </span>
-        </div>
-        <div className="choose-file2">
-          <div className="upload"></div>
-          <div className="choose-file">Choose file</div>
-        </div>
-
-        <div className="input-feild-2">
-          <input type="text" className="input" />
-        </div>
-        <div className="highest-level-of-study">Highest level of study</div>
-
-        <div className="hospital-current-working">
-          <span>
-            <span className="hospital-current-working-span">
-              Hospital current working:
-            </span>
-            <span className="hospital-current-working-span2">*</span>
-          </span>
-        </div>
-        <div className="input-feild-8">
-          <input
-            type="text"
-            className="input"
-            value={hospitalCurrentWorking}
-            onChange={(e) => setHospitalCurrentWorking(e.target.value)}
-          />
-        </div>
-        <div className="experiance">
-          <span>
-            <span className="experiance-span">Experience:</span>
-            <span className="experiance-span2">*</span>
-          </span>
-        </div>
-        <div className="input-feild-22">
-          <input
-            type="text"
-            className="input"
-            value={experience}
-            onChange={(e) => setExperience(e.target.value)}
-          />
-        </div>
-        <div className="hospital-or-clinic">Hospital (or) Clinic:</div>
-        <div className="any-complaints-or-disciplinary-actions-been-filed-against-this-doctor">
-          <span>
-            <span className="any-complaints-or-disciplinary-actions-been-filed-against-this-doctor-span">
-              Any complaints or disciplinary actions been filed against this
-              Doctor:
-            </span>
-            <span className="any-complaints-or-disciplinary-actions-been-filed-against-this-doctor-span2">
-              *
-            </span>
-          </span>
-        </div>
-        <div className="description-if-any">Description (If any?):</div>
-        <div className="input-feild-9">
-          <input
-            type="text"
-            className="input"
-            value={complaints}
-            onChange={(e) => setComplaints(e.target.value)}
+            id="full-name"
+            name="fullName"
+            value={formData.fullName}
+            onChange={handleChange}
+            required
           />
         </div>
 
-        <div className="input-feild-23">
-          <input type="text" className="input" />
-        </div>
-
-        <div className="input-feild-10">
+        <div className="form-group">
+          <label htmlFor="medical-license-number">Medical License Number <span className='from-group-span'>*</span></label>
           <input
             type="text"
-            className="input"
-            value={description}
-            onChange={(e) => setDescription(e.target.value)}
+            id="medical-license-number"
+            name="medicalLicenseNumber"
+            value={formData.medicalLicenseNumber}
+            onChange={handleChange}
+            required
           />
         </div>
-      </div>
+
+        <div className="form-group">
+          <label htmlFor="medical-license">Upload Medical License <span className='from-group-span'>*</span></label>
+          <input
+            type="file"
+            id="medical-license"
+            name="medicalLicense"
+            onChange={handleFileChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="medical-speciality">Medical Specialty <span className='from-group-span'>*</span></label>
+          <input
+            type="text"
+            id="medical-speciality"
+            name="medicalSpecialty"
+            value={formData.medicalSpecialty}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="board-certificate">Upload Board Certificate <span className='from-group-span'>*</span></label>
+          <input
+            type="file"
+            id="board-certificate"
+            name="boardCertificate"
+            onChange={handleFileChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="education-background">Educational Background <span className='from-group-span'>*</span></label>
+          <input
+            type="text"
+            id="education-background"
+            name="educationBackground"
+            value={formData.educationBackground}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="education-certificates">Upload Educational Certificates <span className='from-group-span'>*</span></label>
+          <input
+            type="file"
+            id="education-certificates"
+            name="educationCertificates"
+            onChange={handleFileChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="hospital-working">Hospital Currently Working <span className='from-group-span'>*</span></label>
+          <input
+            type="text"
+            id="hospital-working"
+            name="hospitalWorking"
+            value={formData.hospitalWorking}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="experience">Experience <span className='from-group-span'>*</span></label>
+          <input
+            type="text"
+            id="experience"
+            name="experience"
+            value={formData.experience}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="hospital-clinic">Hospital (or) Clinic <span className='from-group-span'>*</span></label>
+          <input
+            type="text"
+            id="hospital-clinic"
+            name="hospitalClinic"
+            value={formData.hospitalClinic}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="complaints">Any Complaints or Disciplinary Actions Filed?</label>
+          <select
+            id="complaints"
+            name="complaints"
+            value={formData.complaints}
+            onChange={handleChange}
+            required
+          >
+            <option value="">Select...</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="description">Description (If any?)</label>
+          <textarea
+            id="description"
+            name="description"
+            rows="4"
+            value={formData.description}
+            onChange={handleChange}
+            placeholder="Provide any details..."
+          ></textarea>
+        </div>
+
+        <button type="submit" className="submit-button">Submit</button>
+      </form>
     </div>
+    
 
        {/* Footer */}
        <footer className="doctorVerify-footer">

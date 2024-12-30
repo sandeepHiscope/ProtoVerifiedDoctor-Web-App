@@ -238,7 +238,7 @@ function Homepage() {
       {/* Dropdown Part */}
 
       <>
-        <div  className="home-search-section">
+
           {/* Dropdown for country and state */}
           <div className="dropdown-container">
             <div className="input-container">

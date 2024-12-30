@@ -37,7 +37,7 @@ const MainHeader = () => {
                 <a href="/founderPage" className="nav-link">Founder Page</a>
               </div>
             </div>
-            <button className="login-button" onClick={LoginButtonClick}>Login/Signup</button>
+            <button className="login-button-header" onClick={LoginButtonClick}>Login/Signup</button>
           </nav>
         </section>
       </div>

@@ -333,7 +333,7 @@ option {
 
 .search-container2 {
   position: absolute;
-
+  top: 170px;
   left: 55%;
   width: 300px;
 }

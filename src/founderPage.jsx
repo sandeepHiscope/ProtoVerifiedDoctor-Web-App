@@ -26,26 +26,8 @@ const FounderPage = () => {
                          EVAAP (Employment Verification and Academic Proofing)<br/>
                          VDr(Verified Doctor)<br />
                     </li>
-                    <li> 
-                        Job Role : Software Developer<br />
-                    </li>
                 </ul>
       </div>
-      <div class="founderpage-co-founder">
-      <div class="founderpage-founder-div-img">
-        <img class="founderpage-founder-img" src="" /></div>
-        <h2 className="founderpage-founder-h2"> Swapna Madiraju <br />Co-Founder & CEO</h2>
-                <ul className="founderpage-founder-ul">
-                    <li>
-                          Founder Of : Hiscope Cyberlinks<br />
-                         EVAAP (Employment Verification and Academic Proofing)<br/>
-                         VDr(Verified Doctor)<br />
-                    </li>
-                    <li> 
-                        Job Role : HR<br />
-                    </li>
-                </ul>
-      </div >
       <h2 className="founderpage-developer-h2"> DEVELOPER'S </h2>
       <div className="founderpage-developers">
         

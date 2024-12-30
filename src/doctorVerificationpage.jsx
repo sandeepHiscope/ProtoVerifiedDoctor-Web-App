@@ -57,10 +57,18 @@ const DoctorVerification = () => {
 
     <>
     <MainHeader />
+
+    <div className='login-change'>
+    <img
+              src="https://cdn.builder.io/api/v1/image/assets/TEMP/b07d1dfbb02eae67caa3e2cfdf5c9867238ca7e72eb515ca4ba7a5fa71896a65?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
+              alt="Healthcare illustration"
+              className="hero-image1"
+            />
+            </div>
     
-   
-    <div className="doctorverification-container">
-      <h2>Doctor Verification Form</h2>
+   <div  className="doctorverification-container">
+    <div className="doctorverification-container1">
+      <h2 className="doctorVerification-h2">Doctor Verification Form</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="full-name">Full Name <span className='from-group-span'>*</span></label>
@@ -203,11 +211,13 @@ const DoctorVerification = () => {
             value={formData.description}
             onChange={handleChange}
             placeholder="Provide any details..."
+            className="doctorVerification-textarea"
           ></textarea>
         </div>
 
         <button type="submit" className="submit-button">Submit</button>
       </form>
+    </div>
     </div>
     
 

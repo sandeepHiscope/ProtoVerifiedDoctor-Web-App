@@ -59,7 +59,7 @@ const DoctorVerification = () => {
     <MainHeader />
     
    
-    <div className="container">
+    <div className="doctorverification-container">
       <h2>Doctor Verification Form</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">

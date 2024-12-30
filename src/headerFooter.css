@@ -88,9 +88,10 @@
     height: 2.5rem;
   }
   
-  .login-button:hover {
+  .login-button-header:hover {
     opacity: 0.8;
-    color: #B1B8E4;
+    color: white;
+    background-color: rgb(13, 46, 194);
   }
   
   .nav-links {

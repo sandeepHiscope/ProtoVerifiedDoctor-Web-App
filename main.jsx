@@ -9,10 +9,11 @@ import IndividualRegisterPage from "./src/individualRegisterPage";
 import SosPage from "./src/sosPage";
 import DoctorRegisterPage from "./src/doctorRegisterPage";
 import FounderPage from "./src/FounderPage";
+import HomeDeliveryMedicine from "./src/demoPage";
 
 const router = createBrowserRouter([
   {
-    path: "/Home",
+    path: "/",
     element: <Homepage />,
   },
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
     path: "/FounderPage",
     element: <FounderPage />,
   },  
+  {
+    path: "/demoPage",
+    element: <HomeDeliveryMedicine />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

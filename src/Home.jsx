@@ -9,6 +9,8 @@ import Home from "./Home";
 import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
+import FounderPage from "./FounderPage";
+import HomeDeliveryMedicine from "./demoPage";
 
 import VDrLogo from "./assets/Images/VDrlogo.png";
 import GooglePlayLogo from "./assets/icons/apps/ggleplay.png"; 

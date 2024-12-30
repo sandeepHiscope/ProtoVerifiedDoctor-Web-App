@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"; // Assuming you are using react-router 
 import "./headerFooter.css";
 import Home from "./Home";
 import Login from "./loginPage";
+import HomeDeliveryMedicine from "./demoPage";
 import VDrlogo from "../src/assets/Images/VDrlogo.png";
 const LoginButtonClick = () => {
   window.location.href = "/loginPage";
@@ -20,10 +21,11 @@ const MainHeader = () => {
             />
         
           <nav className="nav-container">
-            <a href="/home"><img
+            <a href=""><img
               src={VDrlogo}
               alt="VDrapp Logo"
               className="header-logo"
+
             /></a>
            
             <div className="nav-menu">
@@ -31,9 +33,9 @@ const MainHeader = () => {
                 <a href="/findDoctorPage" className="nav-link">Find a Doctor</a>
                 <a href="/doctorVerificationpage" className="nav-link">Verify a Doctor</a>
                 <a href="/sosPage" className="nav-link sos-link">SOS</a>
-                <a href="#" className="nav-link">Home Delivery Medicines</a>
-                <a href="#" className="nav-link">Micro Insurance</a>
-                <a href="#" className="nav-link">Regular Insurance</a>
+                <a href="/demoPage" className="nav-link">Home Delivery Medicines</a>
+                <a href="/demoPage" className="nav-link">Micro Insurance</a>
+                <a href="/demoPage" className="nav-link">Regular Insurance</a>
                 <a href="/founderPage" className="nav-link">Founder Page</a>
               </div>
             </div>

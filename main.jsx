@@ -8,6 +8,7 @@ import Login from "./src/loginPage";
 import IndividualRegisterPage from "./src/individualRegisterPage";
 import SosPage from "./src/sosPage";
 import DoctorRegisterPage from "./src/doctorRegisterPage";
+import FounderPage from "./src/FounderPage";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
     path: "/doctorRegisterPage",
     element: <DoctorRegisterPage />,
   },
+  {
+    path: "/FounderPage",
+    element: <FounderPage />,
+  },  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

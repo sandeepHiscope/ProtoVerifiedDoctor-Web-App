@@ -56,7 +56,7 @@
 
 .founderpage-developer-h2{
     position: absolute;
-    top: 950px;
+    top: 700px;
     font-weight: 700;
     color: rgb(109, 109, 153);
     left: 100px;
@@ -75,7 +75,7 @@
     width: 100%;
     position: absolute;
     /* height: 300px; */
-    top: 1000px;
+    top: 750px;
     left: 0%;
 }
 
@@ -118,7 +118,7 @@
     height: 280px;
     width: 100%;
     overflow: hidden;
-  top: 1900px;
+  top: 1700px;
     left: 0%;
   }
    

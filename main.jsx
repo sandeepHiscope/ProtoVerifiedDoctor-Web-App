@@ -12,7 +12,7 @@ import FounderPage from "./src/FounderPage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Home",
     element: <Homepage />,
   },
   {

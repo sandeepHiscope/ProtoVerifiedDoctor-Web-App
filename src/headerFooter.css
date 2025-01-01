@@ -68,32 +68,30 @@
     flex-direction: column;
     margin: auto 0;
     position: absolute;
-    top: 50px;
-    left: 170px;
-   
-    
+    top: 60px;
+    left: 170px; 
   }
   
-  .login-button {
+  .login-button-header {
     padding: 8px 15px;
     font-size: 16px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #393939;
+    background-color: #0d0101;
     color: #fffffff3;
     border: 1px solid #3c3c3c7e;
     transition: opacity 0.3s ease;
-  
     position: relative;
     right: 2rem;
     top: 0.5rem;
     height: 2.5rem;
   }
   
-  .login-button:hover {
+  .login-button-header:hover {
     opacity: 0.8;
-    color: #B1B8E4;
+    color: white;
+    background-color: rgb(13, 46, 194);
   }
   
   .nav-links {
@@ -125,9 +123,10 @@
     align-self: start;
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
     font-weight: 700;
     flex-wrap: wrap;
+
   }
   
   .nav-link {

@@ -42,9 +42,9 @@ const MainHeader = () => {
                 <a href="/findDoctorPage" className="nav-link">Find a Doctor</a>
                 <a href="/doctorVerificationpage" className="nav-link">Verify a Doctor</a>
                 <a href="/sosPage" className="nav-link sos-link">SOS</a>
-                <a href="/ComingSoon" className="nav-link">Home Delivery Medicines</a>
-                <a href="/ComingSoon" className="nav-link">Micro Insurance</a>
-                <a href="/ComingSoon" className="nav-link">Regular Insurance</a>
+                <a href="/demoPage" className="nav-link">Home Delivery Medicines</a>
+                <a href="/demoPage" className="nav-link">Micro Insurance</a>
+                <a href="/demoPage" className="nav-link">Regular Insurance</a>
                 <a href="/founderPage" className="nav-link">Founder Page</a>
                 
               </div>

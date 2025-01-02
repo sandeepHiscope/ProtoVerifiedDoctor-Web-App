@@ -52,7 +52,7 @@ const FindDoctorPage = () => {
               type="text"
               id="doctor-search"
               className="search-placeholder"
-              placeholder="        Search for doctors, clinics, hospitals, or specializations,"
+              placeholder="Search for doctors, clinics, hospitals, or specializations,"
             />
           </div>
         </div>

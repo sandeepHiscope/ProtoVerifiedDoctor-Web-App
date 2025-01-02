@@ -20,7 +20,7 @@ const FounderPage = () => {
         <div className="founderPage-main">
         <div class="founderpage-founder">
             <div class="founderpage-founder-div-img">
-        <img class="founderpage-founder-img" src="./src/assets/founder-images/sai.jpg" /></div>
+        <img class="founderpage-founder-img" src="./src/assets/images/sai.jpg" /></div>
         <h2 className="founderpage-founder-h2"> Sai Madiraju <br />Founder & CEO</h2>
                 <ul className="founderpage-founder-ul">
                     <li>
@@ -35,64 +35,64 @@ const FounderPage = () => {
         
        <ul className="founderpage-developers-ul">
        <ul className="founderpage-developers-ul-ul">
-            <li><img src="./src/assets/founder-images/anji.jpg" alt="" />
+            <li><img src="./src/assets/images/anji.jpg" alt="" />
             <h3>Anjaneyulu kadari</h3>
             Software Developer, <br /> Digital Marketing
             </li>
             <li>
-            <img src="./src/assets/founder-images/alekhya.jpg" alt="" />
+            <img src="./src/assets/images/alekhya.jpg" alt="" />
             <h3>Alekhya Padala</h3>
             Java Developer
             </li>
             <li>
-            <img src="./src/assets/founder-images/bhadru.jpg" alt="" />
+            <img src="./src/assets/images/bhadru.jpg" alt="" />
             <h3>Bhadru Lotavath</h3>
             Java Developer
             </li>
             <li>
-            <img src="./src/assets/founder-images/Durga.jpg" alt="" />
+            <img src="./src/assets/images/Durga.jpg" alt="" />
             <h3>Durga Prasad</h3>
             Finance Department
             </li>
         </ul>
         <ul className="founderpage-developers-ul-ul">
-            <li><img src="./src/assets/founder-images/kiran.jpg" alt="" />
+            <li><img src="./src/assets/images/kiran.jpg" alt="" />
             <h3>KiranVenkat Bishetti</h3>
             Software Developer
             </li>
             <li>
-            <img src="./src/assets/founder-images/mohan.jpg" alt="" />
+            <img src="./src/assets/images/mohan.jpg" alt="" />
             <h3>Mohan Bishetti</h3>
             Data Analyst, <br /> Designer
             </li>
             <li>
-            <img src="./src/assets/founder-images/Praveen.jpg" alt="" />
+            <img src="./src/assets/images/Praveen.jpg" alt="" />
             <h3>Praveen Puvvala</h3>
             Java Developer
             </li>
             <li>
-            <img src="./src/assets/founder-images/Shiva.jpg" alt="" />
+            <img src="./src/assets/images/Shiva.jpg" alt="" />
             <h3>Shiva Banoth</h3>
             Full Stack Developer
             </li>
         </ul>
         <ul className="founderpage-developers-ul-ul">
-            <li><img src="./src/assets/founder-images/sandeep.jpg" alt="" />
+            <li><img src="./src/assets/images/sandeep.jpg" alt="" />
             <h3>Sandeep M</h3>
             Full Stack Developer
             </li>
             <li>
-            <img src="./src/assets/founder-images/SaiSakth.jpg" alt="" />
+            <img src="./src/assets/images/SaiSakth.jpg" alt="" />
             <h3>Sai Saketh</h3>
             Data Engineer
             </li>
             <li>
-            <img src="./src/assets/founder-images/vyshanavi.jpg" alt="" />
+            <img src="./src/assets/images/vyshanavi.jpg" alt="" />
             <h3>Vaishnavi G</h3>
             Full Stack Developer
             </li>
             <li>
-            <img src="./src/assets/founder-images/Pavan p.jpg" alt="" />
+            <img src="./src/assets/images/Pavan p.jpg" alt="" />
             <h3>Pavan P</h3>
                  Team Lead
             </li>

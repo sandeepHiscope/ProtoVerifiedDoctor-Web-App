@@ -72,26 +72,35 @@
     left: 170px; 
   }
   
-  .login-button-header {
+  .login-button-header{
     padding: 8px 15px;
     font-size: 16px;
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    background-color: #0d0101;
+    background-color: #5c5959;
+    border: 2px solid #5c5959;
     color: #fffffff3;
-    border: 1px solid #3c3c3c7e;
     transition: opacity 0.3s ease;
     position: relative;
     right: 2rem;
     top: 0.5rem;
     height: 2.5rem;
+    box-shadow: 3px  2px 10px #817f7f ;
+    
   }
+
   
   .login-button-header:hover {
-    opacity: 0.8;
+    /* opacity: 0.8; */
     color: white;
-    background-color: rgb(13, 46, 194);
+    background-color: rgb(77, 101, 207);
+    border: 2px solid rgb(13, 46, 194);
+ 
+  }
+  .login-button-header:focus {
+    border: 1px solid rgb(13, 46, 194);
+    box-shadow: 2px  2px 10px #817f7f ;
   }
   
   .nav-links {

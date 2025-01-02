@@ -60,6 +60,7 @@ height: 5rem;}
   overflow: hidden;
   top: 1550px;
   left: 0%;
+  z-index: -1;
 }
 
 
@@ -150,6 +151,7 @@ input[type="text"], input[type="file"], select, .doctorVerification-textarea {
   resize: vertical;
   position: sticky;
   top: -10px;
+  overflow: scroll;
 }
 
 .submit-button {

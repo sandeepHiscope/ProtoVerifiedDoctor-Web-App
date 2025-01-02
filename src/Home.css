@@ -390,8 +390,8 @@ option {
   position: absolute;
   top: 53%;
   left: 32%;
-  color: rgb(252, 21, 21);
-  text-decoration: underline;
+  color: black;
+
 }
 .body2 {
   font-family: Arial, sans-serif;
@@ -421,7 +421,6 @@ option {
 .slides {
   display: flex;
   transition: transform 1s ease-in-out;
-  transform: ;
 }
 
 

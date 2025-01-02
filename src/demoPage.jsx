@@ -8,6 +8,9 @@ import Home from "./Home";
 import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
+import FounderPage from "./founderPage";
+
+
 
 // import MainHeader from "./header";
 const HomeDeliveryMedicine = () => {

@@ -5,6 +5,13 @@ import "./headerFooter.css";
 import Home from "./Home";
 import Login from "./loginPage";
 import HomeDeliveryMedicine from "./demoPage";
+import IndividualRegisterPage from "./individualRegisterPage";
+import DoctorRegisterPage from "./doctorRegisterPage";
+import FounderPage from "./founderPage";
+import SosPage from "./sosPage";
+import FindDoctorPage from "./findDoctorPage";
+import DoctorVerification from "./doctorVerificationpage";
+
 import VDrlogo from "../src/assets/Images/VDrlogo.png";
 import ComingSoon from "./ComingSoon";
 

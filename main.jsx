@@ -8,7 +8,7 @@ import Login from "./src/loginPage";
 import IndividualRegisterPage from "./src/individualRegisterPage";
 import SosPage from "./src/sosPage";
 import DoctorRegisterPage from "./src/doctorRegisterPage";
-import FounderPage from "./src/FounderPage";
+import FounderPage from "./src/founderPage";
 import HomeDeliveryMedicine from "./src/demoPage";
 
 const router = createBrowserRouter([

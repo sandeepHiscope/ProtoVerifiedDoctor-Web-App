@@ -8,6 +8,7 @@ import Home from "./Home";
 import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
+import FounderPage from "./founderPage";
 
 const SosPage = () => {
   const [count, setCount] = useState("Double click");

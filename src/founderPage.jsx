@@ -10,6 +10,8 @@ import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
 
+
+
 const FounderPage = () => {
     return (
         <>

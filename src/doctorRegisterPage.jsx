@@ -7,6 +7,8 @@ import Home from './Home';
 import Login from './loginPage';
 import IndividualRegisterPage from './individualRegisterPage';
 import SosPage from './sosPage';
+import FounderPage from './founderPage';
+
 
 
 const DoctorRegisterPage = () => {

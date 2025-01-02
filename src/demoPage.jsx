@@ -10,7 +10,8 @@ import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
 import FounderPage from "./founderPage";
 
-
+// import bag1 from "./assets/images/bag1.png";
+import VDrLogo from "./assets/Images/VDrlogo.png";
 
 // import MainHeader from "./header";
 const HomeDeliveryMedicine = () => {

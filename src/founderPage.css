@@ -142,12 +142,12 @@ box-shadow: 3px 3px 10px rgb(187, 185, 185);
     width: 150px;
     height: 150px;
     object-fit: cover;
-    
+    border-radius: 10px;
     transition: 1s;
+    overflow: hidden;
 }
 
 .founderpage-developers-ul-ul li img:hover{
-     transform: scale(1.1); 
         box-shadow: 0 10px 20px rgb(187, 185, 185);
     border-radius: 10px;
     cursor: pointer;

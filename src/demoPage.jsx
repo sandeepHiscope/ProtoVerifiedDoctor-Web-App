@@ -9,7 +9,7 @@ import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
 import FounderPage from "./founderPage";
-import HomeDeliveryMedicine from "./demoPage";
+
 
 
 // import MainHeader from "./header";

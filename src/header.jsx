@@ -30,12 +30,13 @@ const MainHeader = () => {
             />
         
           <nav className="nav-container">
-            <a href=""><img
+            <a href="/">
+              <img
               src={VDrlogo}
               alt="VDrapp Logo"
               className="header-logo"
-
-            /></a>
+              />
+            </a>
            
             <div className="nav-menu">
               <div className="nav-links">

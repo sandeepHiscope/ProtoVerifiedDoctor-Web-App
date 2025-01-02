@@ -61,6 +61,7 @@ height: 5rem;}
   top: 1550px;
   left: 0%;
   z-index: -1;
+  bottom: 0px;
 }
 
 
@@ -147,8 +148,8 @@ input[type="text"], input[type="file"], select, .doctorVerification-textarea {
 }
 
 .doctorVerification-textarea {
-  height: 50px;
-  resize: vertical;
+  height: 140px;
+  resize: none;
   position: sticky;
   top: -10px;
   overflow: scroll;

@@ -299,7 +299,7 @@ function Homepage() {
         <div className="experts-moving-cont">
 
         {/* Heading */}
-          <div className="h1">
+          <div className="homediv-h1">
             <h1>
               Get Expert Medical Care Online or In-Clinic for Any Health Need
             </h1>

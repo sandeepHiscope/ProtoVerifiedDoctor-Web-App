@@ -3,12 +3,14 @@ import "./findDoctorPage.css";
 import HeaderFooter from "./header";
 
 import DoctorVerification from "./doctorVerificationpage";
-// import FindDoctorPage from "./findDoctorPage";
+import FindDoctorPage from "./findDoctorPage";
 import Home from "./Home";
 import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import SosPage from "./sosPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
+import FounderPage from "./founderPage";
+
 
 const FindDoctorPage = () => {
   return (

@@ -8,6 +8,7 @@ import Login from "./loginPage";
 // import IndividualRegisterPage from "./individualRegisterPage";
 import SosPage from "./sosPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
+import FounderPage from "./founderPage";
 
 const IndividualRegisterPage = () => {
   return (

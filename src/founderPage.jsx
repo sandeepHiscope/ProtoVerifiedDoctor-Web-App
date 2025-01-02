@@ -18,10 +18,11 @@ const FounderPage = () => {
         <MainHeader />
         <>
         <div className="founderPage-main">
-        <div class="founderpage-founder">
+            <div class="founderpage-founder">
             <div class="founderpage-founder-div-img">
-        <img class="founderpage-founder-img" src="./src/assets/images/sai.jpg" /></div>
-        <h2 className="founderpage-founder-h2"> Sai Madiraju <br />Founder & CEO</h2>
+             <img class="founderpage-founder-img" src="./src/assets/images/sai.jpg" />
+             </div>
+                <h2 className="founderpage-founder-h2"> Sai Madiraju <br />Founder & CEO</h2>
                 <ul className="founderpage-founder-ul">
                     <li>
                           Founder Of : Hiscope Cyberlinks<br />
@@ -29,21 +30,22 @@ const FounderPage = () => {
                          VDr(Verified Doctor)<br />
                     </li>
                 </ul>
-      </div>
-      <h2 className="founderpage-developer-h2"> DEVELOPER'S </h2>
+            </div>
+           
+            <h2 className="founderpage-developer-h2"> DEVELOPER'S </h2>
       <div className="founderpage-developers">
         
-       <ul className="founderpage-developers-ul">
-       <ul className="founderpage-developers-ul-ul">
-            <li><img src="./src/assets/images/anji.jpg" alt="" />
-            <h3>Anjaneyulu kadari</h3>
-            Software Developer, <br /> Digital Marketing
-            </li>
-            <li>
-            <img src="./src/assets/images/alekhya.jpg" alt="" />
-            <h3>Alekhya Padala</h3>
-            Java Developer
-            </li>
+                <ul className="founderpage-developers-ul">
+                <ul className="founderpage-developers-ul-ul">
+                 <li><img src="./src/assets/images/anji.jpg" alt="" />
+                <h3>Anjaneyulu kadari</h3>
+                 Software Developer, <br /> Digital Marketing
+                    </li>
+                    <li>
+                <img src="./src/assets/images/alekhya.jpg" alt="" />
+                <h3>Alekhya Padala</h3>
+                 Java Developer
+                </li>
             <li>
             <img src="./src/assets/images/bhadru.jpg" alt="" />
             <h3>Bhadru Lotavath</h3>
@@ -98,8 +100,9 @@ const FounderPage = () => {
             </li>
         </ul>
        </ul>
-      </div>
+       
       </div> 
+      </div>
      
 
   </>

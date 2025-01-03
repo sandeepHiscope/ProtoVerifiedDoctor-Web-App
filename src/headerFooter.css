@@ -63,6 +63,9 @@
 .header-logo {
     width: 110px; /* Adjust the width as needed */
   height: auto;
+  position: relative;
+  left: 25px;
+  top: 15px;
   }
 
   .header-logo:hover{

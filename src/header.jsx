@@ -23,7 +23,7 @@ const MainHeader = () => {
             <Link to="/">
               <img
                 src={VDrLogo}
-                alt="VDrapp Logo"
+                alt="VDrapp Footer Logo"
                 className="header-logo"
               />
             </Link>

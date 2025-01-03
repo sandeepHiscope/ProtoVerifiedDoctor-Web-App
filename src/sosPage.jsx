@@ -86,8 +86,8 @@ const SosPage = () => {
 
   <div className="sos-footer-div1">
   <img
-          src={VDrLogo}
-          alt="VDrapp Footer Logo"
+         src={VDrLogo}
+         alt="VDrapp Footer Logo"
           className="sos-footer-logo"
         />
  </div>

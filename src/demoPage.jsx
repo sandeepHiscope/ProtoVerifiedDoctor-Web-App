@@ -9,7 +9,6 @@ import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
 import FounderPage from "./ourFoundersPage";
-import bg from "./assets/Images/demoImg/bg.png";
 import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
 
 

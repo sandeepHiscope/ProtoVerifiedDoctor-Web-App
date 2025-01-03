@@ -10,10 +10,10 @@
     /* height: 100px; */
     font-weight: bold;
     font-size: x-large;
-   background-image: url(./src/assets/images/comingSoonPage/bag1.png);
-        background-clip: text;
-        -webkit-background-clip:  text;
-        color: transparent;
+    background: linear-gradient(90deg, #2e75e0, #d817b8, #e20d6d);
+     -webkit-background-clip: text; 
+     -webkit-text-fill-color: transparent; 
+     background-clip: text;
         z-index: 1;
     
 }

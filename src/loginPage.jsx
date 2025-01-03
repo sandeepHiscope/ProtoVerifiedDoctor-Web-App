@@ -13,6 +13,7 @@ import DoctorRegisterPage from "./doctorRegisterPage";
 import FounderPage from "./ourFoundersPage";
 import MainHeader from './header';
 import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
+import Googlelogo from "./assets/icons/google.png";
 
 
 const Login = () => {
@@ -80,9 +81,9 @@ const Login = () => {
             <div className='forget'>
               Forget password ?
             </div>
-            <div className='h1'>----continue with----</div>
+            <div className='login-h1'>----continue with----</div>
             <img
-              src="./src/assets/google.png"
+              src={Googlelogo}
               alt="google"
               className="small-image"
             />

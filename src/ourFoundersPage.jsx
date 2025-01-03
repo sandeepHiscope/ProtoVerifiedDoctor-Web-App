@@ -19,13 +19,13 @@ import Bhadru from "./assets/Images/foundersImg/bhadru.jpg";
 import Durga from "./assets/Images/foundersImg/Durga.jpg";
 import Kiran from "./assets/Images/foundersImg/kiran.jpg";
 import Mohan from "./assets/Images/foundersImg/mohan.jpg";
-import Pavan from "./assets/Images/foundersImg/Pavan p.jpg";
+import Pavan from "./assets/Images/foundersImg/Pavan P.jpg";
 import Praveen from "./assets/Images/foundersImg/Praveen.jpg";
 import Sai from "./assets/Images/foundersImg/sai.jpg";
 import Sandeep from "./assets/Images/foundersImg/sandeep.jpg";
 import SaiSakth from "./assets/Images/foundersImg/SaiSakth.jpg";
 import Shiva from "./assets/Images/foundersImg/Shiva.jpg";
-import Vyshanavi from "./assets/Images/foundersImg/vaishanavi.jpg";
+import Vyshanavi from "./assets/Images/foundersImg/Vaishanavi.jpg";
 // Add more imports as needed
 
 const FounderPage = () => {

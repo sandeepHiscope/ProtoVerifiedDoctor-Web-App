@@ -34,8 +34,8 @@ const HomeDeliveryMedicine = () => {
 
   <div className="demo-footer-div1">
   <img
-          src="./public/vdr_2-removebg-preview-removebg-preview.png"
-          alt={VDrLogo}
+         src={VDrLogo}
+            alt="VDrapp Footer Logo"
           className="demo-footer-logo"
         />
  </div>

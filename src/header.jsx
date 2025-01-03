@@ -6,7 +6,7 @@ import Login from "./loginPage";
 import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
 
 const LoginButtonClick = () => {
-  window.location.href = Login;
+  window.location.href = "./loginPage";
 };
 
 const MainHeader = () => {

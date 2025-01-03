@@ -99,7 +99,7 @@ const FindDoctorPage = () => {
       <footer className="findDoctor-footer">
 <img
   src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c7c2f1f7f0ad4e4188183ac4b58840bac63df589165099f22e5a8c9c8da274d?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
-  alt=""
+  alt="bg"
   className="findDoctor-background-image-footer"/>
 
   <div className="fontDoctor-footer-div1">

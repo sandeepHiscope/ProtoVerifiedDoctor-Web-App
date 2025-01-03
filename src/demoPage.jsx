@@ -13,8 +13,6 @@ import bg from "./assets/Images/demoImg/bg.png";
 import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
 
 
-
-
 // import MainHeader from "./header";
 const HomeDeliveryMedicine = () => {
     return(
@@ -25,7 +23,7 @@ const HomeDeliveryMedicine = () => {
            <h1  className="bounce">COMING SOON....</h1>
         </div>
         <div className="home-delivery-medicine-logo">
-            <img src={bg} alt="VDr-logo" />
+            <img src={VDrLogo} alt="VDr-logo" />
         </div>
 
 

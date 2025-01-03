@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./doctorVerificationpage.css";
-import imgx from "../src/assets/Images/Cardiologist.png";
-// import DoctorVerification from "./doctorVerificationpage";
 import FindDoctorPage from "./findDoctorPage";
 import Home from "./Home";
 import Login from "./loginPage";
@@ -9,6 +7,8 @@ import IndividualRegisterPage from "./individualRegisterPage";
 import SosPage from "./sosPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
 import MainHeader from "./header";
+import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
+
 
 const DoctorVerification = () => {
   const [count, setCount] = useState(0)
@@ -230,7 +230,7 @@ const DoctorVerification = () => {
 
   <div className="doctorVerify-footer-div1">
   <img
-          src="./public/vdr_2-removebg-preview-removebg-preview.png"
+          src={VDrLogo}
           alt="VDrapp Footer Logo"
           className="doctorVerify-footer-logo"
         />

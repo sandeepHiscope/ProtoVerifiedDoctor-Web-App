@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import "./loginPage.css"; // Import the CSS file
 
+
 import DoctorVerification from "./doctorVerificationpage";
 import FindDoctorPage from "./findDoctorPage";
 import Home from "./Home";
@@ -9,8 +10,10 @@ import Home from "./Home";
 import IndividualRegisterPage from "./individualRegisterPage";
 import SosPage from "./sosPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
-import FounderPage from "./founderPage";
+import FounderPage from "./ourFoundersPage";
 import MainHeader from './header';
+import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
+
 
 const Login = () => {
   const [activeTab, setActiveTab] = useState("login");
@@ -142,7 +145,7 @@ const Login = () => {
     
       <footer className="login-footer">
 <img
-  src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c7c2f1f7f0ad4e4188183ac4b58840bac63df589165099f22e5a8c9c8da274d?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
+  src={VDrLogo}
   alt=""
   className="sos-background-image-footer"/>
 

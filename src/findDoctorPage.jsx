@@ -1,6 +1,18 @@
 import React, { useState } from "react";
 import "./findDoctorPage.css";
 import HeaderFooter from "./header";
+
+import DoctorVerification from "./doctorVerificationpage";
+import Home from "./Home";
+import Login from "./loginPage";
+import IndividualRegisterPage from "./individualRegisterPage";
+import SosPage from "./sosPage";
+import DoctorRegisterPage from "./doctorRegisterPage";
+import FounderPage from "./ourFoundersPage";
+import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
+
+
+
 import indianStates from "./indianStates";
 import doctorSelect from "./doctorSelect";
 
@@ -85,10 +97,16 @@ const FindDoctorPage = () => {
         {print && <h1 className="findDoctor-print">{print}</h1>}
       </div>
       <footer className="findDoctor-footer">
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c7c2f1f7f0ad4e4188183ac4b58840bac63df589165099f22e5a8c9c8da274d?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
-          alt="Footer background"
-          className="findDoctor-background-image-footer"
+<img
+  src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c7c2f1f7f0ad4e4188183ac4b58840bac63df589165099f22e5a8c9c8da274d?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
+  alt=""
+  className="findDoctor-background-image-footer"/>
+
+  <div className="fontDoctor-footer-div1">
+  <img
+          src={VDrLogo}
+          alt="VDrapp Footer Logo"
+          className="findDoctor-footer-logo"
         />
         <div className="fontDoctor-footer-div1">
           <img
@@ -100,6 +118,7 @@ const FindDoctorPage = () => {
         <div className="findDoctor-footer-copyright">
           <h6> @Hiscope 2024 </h6>
         </div>
+      </div>
       </footer>
     </>
   );

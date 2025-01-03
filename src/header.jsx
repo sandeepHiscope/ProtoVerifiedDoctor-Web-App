@@ -2,52 +2,40 @@ import React from "react";
 import { Link } from "react-router-dom"; // Assuming you are using react-router for navigation
 
 import "./headerFooter.css";
-import Home from "./Home";
 import Login from "./loginPage";
-import HomeDeliveryMedicine from "./demoPage";
-import IndividualRegisterPage from "./individualRegisterPage";
-import DoctorRegisterPage from "./doctorRegisterPage";
-import FounderPage from "./founderPage";
-import SosPage from "./sosPage";
-import FindDoctorPage from "./findDoctorPage";
-import DoctorVerification from "./doctorVerificationpage";
-
-import VDrlogo from "../src/assets/Images/VDrlogo.png";
-import ComingSoon from "./ComingSoon";
+import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
 
 const LoginButtonClick = () => {
-  window.location.href = "/loginPage";
-  };
+  window.location.href = Login;
+};
+
 const MainHeader = () => {
   return (
     <>
       <div className="login-container">
         <section className="header-section">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets/TEMP/3816a04fcc74163bada0a2cbd8666252a1c3d39e2c479cd0c439e054a756e8a9?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
-              alt="logo"
-              className="background-image-header"
-            />
-        
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/3816a04fcc74163bada0a2cbd8666252a1c3d39e2c479cd0c439e054a756e8a9?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
+            alt="logo"
+            className="background-image-header"
+          />
           <nav className="nav-container">
-            <a href="/" className="headerlogo-link">
+            <Link to="/">
               <img
-              src={VDrlogo}
-              alt="VDrapp Logo"
-              className="header-logo"
+                src={VDrLogo}
+                alt="VDrapp Logo"
+                className="header-logo"
               />
-            </a>
-           
+            </Link>
             <div className="nav-menu">
               <div className="nav-links">
-                <a href="/findDoctorPage" className="nav-link">Find a Doctor</a>
-                <a href="/doctorVerificationpage" className="nav-link">Verify a Doctor</a>
-                <a href="/sosPage" className="nav-link sos-link">SOS</a>
-                <a href="/demoPage" className="nav-link">Home Delivery Medicines</a>
-                <a href="/demoPage" className="nav-link">Micro Insurance</a>
-                <a href="/demoPage" className="nav-link">Regular Insurance</a>
-                <a href="/founderPage" className="nav-link">Founder Page</a>
-                
+                <Link to="/findDoctorPage" className="nav-link">Find a Doctor</Link>
+                <Link to="/doctorVerificationpage" className="nav-link">Verify a Doctor</Link>
+                <Link to="/sosPage" className="nav-link sos-link">SOS</Link>
+                <Link to="/demoPage" className="nav-link">Home Delivery Medicines</Link>
+                <Link to="/demoPage" className="nav-link">Micro Insurance</Link>
+                <Link to="/demoPage" className="nav-link">Regular Insurance</Link>
+                <Link to="/founderPage" className="nav-link">Founder Page</Link>
               </div>
             </div>
             <button className="login-button-header" onClick={LoginButtonClick}>Login/Signup</button>
@@ -57,6 +45,5 @@ const MainHeader = () => {
     </>
   );
 };
-
 
 export default MainHeader;

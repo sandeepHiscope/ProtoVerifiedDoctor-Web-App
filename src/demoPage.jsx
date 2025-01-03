@@ -8,10 +8,10 @@ import Home from "./Home";
 import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
-import FounderPage from "./founderPage";
+import FounderPage from "./ourFoundersPage";
+// import bg from "./assets/Images/demoImg/bg.png";
+import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
 
-// import bag1 from "./assets/images/bag1.png";
-import VDrLogo from "./assets/Images/VDrlogo.png";
 
 // import MainHeader from "./header";
 const HomeDeliveryMedicine = () => {
@@ -23,7 +23,7 @@ const HomeDeliveryMedicine = () => {
            <h1  className="bounce">COMING SOON....</h1>
         </div>
         <div className="home-delivery-medicine-logo">
-            <img src="./src/assets/images/VDrlogo.png" alt="VDr-logo" />
+            <img src={VDrLogo} alt="VDr-logo" />
         </div>
 
 
@@ -35,8 +35,8 @@ const HomeDeliveryMedicine = () => {
 
   <div className="demo-footer-div1">
   <img
-          src="./public/vdr_2-removebg-preview-removebg-preview.png"
-          alt="VDrapp Footer Logo"
+          src={VDrLogo}
+          alt="logo"
           className="demo-footer-logo"
         />
  </div>

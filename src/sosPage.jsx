@@ -8,7 +8,9 @@ import Home from "./Home";
 import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
-import FounderPage from "./founderPage";
+import FounderPage from "./ourFoundersPage";
+import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
+
 
 const SosPage = () => {
   const [count, setCount] = useState("Double click");
@@ -84,7 +86,7 @@ const SosPage = () => {
 
   <div className="sos-footer-div1">
   <img
-          src="./public/vdr_2-removebg-preview-removebg-preview.png"
+          src={VDrLogo}
           alt="VDrapp Footer Logo"
           className="sos-footer-logo"
         />

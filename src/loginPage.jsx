@@ -9,7 +9,6 @@ import Home from "./Home";
 import IndividualRegisterPage from "./individualRegisterPage";
 import SosPage from "./sosPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
-import FounderPage from "./founderPage";
 import MainHeader from './header';
 
 const Login = () => {

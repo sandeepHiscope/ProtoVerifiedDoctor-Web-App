@@ -7,7 +7,9 @@ import Home from './Home';
 import Login from './loginPage';
 import IndividualRegisterPage from './individualRegisterPage';
 import SosPage from './sosPage';
-import FounderPage from './founderPage';
+import FounderPage from './ourFoundersPage';
+import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
+
 
 
 
@@ -122,7 +124,7 @@ const DoctorRegisterPage = () => {
             <div className="footer-logo-column">
               <div className="footer-logo-wrapper">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/62aa73b0f4ffde82474a1490fece5052dde1f95d465eaf7ac9624210220a6a08?placeholderIfAbsent=true&apiKey=9ccc22c2724c427c8498a732bb366bf4"
+                  src={VDrLogo}
                   alt="VDrapp Footer Logo"
                   className="footer-logo"
                 />

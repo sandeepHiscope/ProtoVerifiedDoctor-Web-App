@@ -9,25 +9,28 @@ import Home from "./Home";
 import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
-import FounderPage from "./founderPage";
+import FounderPage from "./ourFoundersPage";
 import HomeDeliveryMedicine from "./demoPage";
 
-import VDrLogo from "./assets/Images/VDrlogo.png";
-import GooglePlayLogo from "./assets/icons/apps/ggleplay.png"; 
+// image imports
+
+import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
+import GooglePlayLogo from "./assets/icons/apps/googleplay.png";
 import AppStoreLogo from "./assets/icons/apps/applestore.png";
 
-import CardiologistImg from "./assets/Images/Cardiologist.png";
-  import GynaecologistImg from "./assets/Images/gynaecologist.png";
-  import DentistImg from "./assets/Images/Dentist.png";
-  import GastroenterologistImg from "./assets/Images/Gastrologist.png";
-  import OrthopedistImg from "./assets/Images/Orthopedist.png";
-  import DiagnosticsImg from "./assets/Images/Diagnostics.png";
-  import DermatologistImg from "./assets/Images/Dermatologist.png";
-  import GeneralPhysicianImg from "./assets/Images/general physicians.png";
-  import NeurologistImg from "./assets/Images/Neurologist.png";
-  import PhysiotherapistImg from "./assets/Images/physiotherapist.png";
-  import PediatricianImg from "./assets/Images/Pediatrician.png";
-  import PulmonologistImg from "./assets/Images/pulmonologist.png";
+import CardiologistImg from "./assets/Images/commonImg/Cardiologist.png";
+import GynaecologistImg from "./assets/Images/homeImg/gynaecologist.png";
+import DentistImg from "./assets/Images/homeImg/Dentist.png";
+import GastroenterologistImg from "./assets/Images/homeImg/Gastrologist.png";
+import OrthopedistImg from "./assets/Images/homeImg/Orthopedist.png";
+import DiagnosticsImg from "./assets/Images/homeImg/Diagnostics.png";
+import DermatologistImg from "./assets/Images/homeImg/Dermatologist.png";
+import GeneralPhysicianImg from "./assets/Images/homeImg/general physicians.png";
+import NeurologistImg from "./assets/Images/homeImg/Neurologist.png";
+import PhysiotherapistImg from "./assets/Images/homeImg/physiotherapist.png";
+import PediatricianImg from "./assets/Images/homeImg/Pediatrician.png";
+import PulmonologistImg from "./assets/Images/homeImg/pulmonologist.png";
+
 
 
 function Homepage() {
@@ -416,7 +419,7 @@ function Homepage() {
 
   <div className="home-footer-div1">
   <img
-          src="./public/vdr_2-removebg-preview-removebg-preview.png"
+          src={VDrLogo}
           alt="VDrapp Footer Logo"
           className="home-footer-logo"
         />

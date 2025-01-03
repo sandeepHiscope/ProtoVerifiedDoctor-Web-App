@@ -34,9 +34,7 @@
     height: 250px;
     width: 100%;
     object-fit: cover;
-    object-position: center;
-    /* border: 1px solid black; */
-      
+    object-position: center;   
   }
   
   .nav-container {
@@ -53,14 +51,23 @@
     background: #dababa00;
 
   }
+
+  .headerlogo-link{
+    position: relative;
+    left: 30px;
+    top: 16px;
+    overflow: hidden;
+    border-radius: 30px;
+  }
   
 .header-logo {
-    width: 100px; /* Adjust the width as needed */
-  height: auto; /* Maintain aspect ratio */
-  position: relative;
-  left: 30px;
-  top: 1rem;
-  cursor: pointer;
+    width: 110px; /* Adjust the width as needed */
+  height: auto;
+  }
+
+  .header-logo:hover{
+    opacity: 0.8;
+    background-color: rgba(150, 199, 245, 0);
   }
   
   .nav-menu {

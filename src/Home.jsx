@@ -106,7 +106,7 @@ function Homepage() {
     {
       title: "Dentist",
       img: DentistImg,
-      description: "Strong Teeth, Bright Smiles, Happy Life",
+      description: "Strong Teeth,Bright Smiles",
     },
     {
       title: "Gastroenterologist",
@@ -141,7 +141,7 @@ function Homepage() {
     {
       title: "Physiotherapist",
       img: PhysiotherapistImg,
-      description: "Restoring movement, improving life",
+      description: "Restoring movement,improving life",
     },
     {
       title: "Pediatrician",

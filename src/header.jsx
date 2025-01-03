@@ -30,7 +30,7 @@ const MainHeader = () => {
             />
         
           <nav className="nav-container">
-            <a href="/">
+            <a href="/" className="headerlogo-link">
               <img
               src={VDrlogo}
               alt="VDrapp Logo"

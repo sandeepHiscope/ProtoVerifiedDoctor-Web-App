@@ -119,12 +119,13 @@ body {
 .forget:hover{
   color: rgb(20, 106, 205);
 }
-.h1{
+.login-h1{
   font-size: 20px;
   font-family: open sana;
   color: rgb(22, 22, 22);
   position: absolute;
-  top: 78%;
+  top: 73%;
+  left: 160px;
 }
 
 .tabs {
@@ -234,7 +235,7 @@ object-fit: cover;
   width:40px;
   position: absolute;
   top: 87%;
-  left: 50%;
+  left: 45%;
 }
 .title1{
   font-size: 15px;

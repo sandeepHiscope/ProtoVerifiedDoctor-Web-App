@@ -108,13 +108,6 @@ const FindDoctorPage = () => {
           alt="VDrapp Footer Logo"
           className="findDoctor-footer-logo"
         />
-        <div className="fontDoctor-footer-div1">
-          <img
-            src="./public/vdr_2-removebg-preview-removebg-preview.png"
-            alt="VDrapp Footer Logo"
-            className="findDoctor-footer-logo"
-          />
-        </div>
         <div className="findDoctor-footer-copyright">
           <h6> @Hiscope 2024 </h6>
         </div>

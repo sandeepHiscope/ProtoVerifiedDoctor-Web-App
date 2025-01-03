@@ -9,7 +9,6 @@ import Login from "./loginPage";
 import IndividualRegisterPage from "./individualRegisterPage";
 import DoctorRegisterPage from "./doctorRegisterPage";
 import FounderPage from "./ourFoundersPage";
-import bg from "./assets/Images/demoImg/bg.png";
 import VDrLogo from "./assets/Images/commonImg/VDrlogo.png";
 
 
@@ -35,8 +34,8 @@ const HomeDeliveryMedicine = () => {
 
   <div className="demo-footer-div1">
   <img
-          src="./public/vdr_2-removebg-preview-removebg-preview.png"
-          alt={VDrLogo}
+         src={VDrLogo}
+            alt="VDrapp Footer Logo"
           className="demo-footer-logo"
         />
  </div>

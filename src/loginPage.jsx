@@ -81,6 +81,7 @@ const Login = () => {
         alert("Registration successful!");
         setFormData({ username: "", email: "", password: "" });
         setRole("");
+        window.location.href = {DoctorVerification};
       }
     } catch (error) {
       console.error("Registration error:", error);
